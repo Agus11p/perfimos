@@ -3,90 +3,180 @@
     "nombre": "Jean Paul Gaultier Le Beau 125ml (Masculino)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/c55Su3dED6GBv61xuoBPE.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Fresco, Aromático, Especiado",
+    "ocasion": "Casual, Trabajo",
+    "estacion": "Primavera, Verano",
+    "clima": "Calor, Templado",
+    "momento": "Día"
   },
   {
     "nombre": "Jean Paul Gaultier Divine 125ml (Femenino)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/2cpjCHCf37Yfr4m235x1J.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Floral, Frutal, Dulce",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Noche"
   },
   {
     "nombre": "Jean Paul Gaultier Paradise Fall 125ml (Masculino)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/QA5mc_FPHL0TBDbUkC39F.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Oriental, Amaderado, Especiado",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
     "nombre": "Azzaro Wanted Elixir 100ml (Masculino)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/XZhLcOA0vZH2_-iuOCq3g.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Especiado, Amaderado, Cálido",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
     "nombre": "Azzaro Wanted Parfum 100ml (Masculino)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/JYwh8WKiMd095m4ASHoYK.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Especiado, Amaderado, Sensual",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
     "nombre": "Xerjoff Erba Gold 100ml (Unisex)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/awaPiDXSR8VlIArXzubDt.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Herbáceo, Floral, Fresco",
+    "ocasion": "Casual, Trabajo",
+    "estacion": "Primavera, Verano",
+    "clima": "Calor, Templado",
+    "momento": "Día"
   },
   {
     "nombre": "Xerjoff Soprano 100ml (Unisex)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/Y-_zH4D_58fTZpNBNRYbg.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Cítrico, Floral, Elegante",
+    "ocasion": "Elegante, Casual",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Día, Noche"
   },
   {
     "nombre": "Spicebomb (Masculino)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/2gfZxUA95sLWo_PJ_KdLY.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Picante, Especiado, Amaderado",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
     "nombre": "212 Men Heroes (Masculino)",
     "precio": 120000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/MfajFlri6EaYufq3t1iFa.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Fresco, Aromático, Deportivo",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor, Templado",
+    "momento": "Día"
   },
   {
     "nombre": "La Vie Est Belle (Femenino)",
     "precio": 120000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/wCH2tH5ZSAZGJ_uxcIXzn.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Oriental, Gourmet, Dulce",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
     "nombre": "Jean Paul Gaultier Elixir 125ml (Masculino)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/pA-k29p8mSFtOk97bEKXh.png",
-    "disponible": false
+    "disponible": false,
+    "genero": "Masculino",
+    "notas": "Oriental, Especiado, Amaderado",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
     "nombre": "Jean Paul Gaultier Le Parfum 125ml (Masculino)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/E_E0f-ZGXiBlwqiEdzo01.png",
-    "disponible": false
+    "disponible": false,
+    "genero": "Masculino",
+    "notas": "Floral, Amaderado, Sofisticado",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Templado, Frío",
+    "momento": "Noche"
   },
   {
     "nombre": "Xerjoff Erba Pura 100ml (Unisex)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/-G3JLhAyiWxXkQwlj49aM.png",
-    "disponible": false
+    "disponible": false,
+    "genero": "Unisex",
+    "notas": "Herbáceo, Limpio, Fresco",
+    "ocasion": "Casual, Trabajo",
+    "estacion": "Primavera, Verano",
+    "clima": "Calor, Templado",
+    "momento": "Día"
   },
   {
     "nombre": "One Million Paco Rabanne (Masculino)",
     "precio": 120000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/xgB2oNoAT9hanq1lTETyI.png",
-    "disponible": false
+    "disponible": false,
+    "genero": "Masculino",
+    "notas": "Oriental, Dulce, Gourmet",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
-    "nombre": "Bleu de Chanel",
+    "nombre": "Bleu de Chanel (Masculino)",
     "precio": 120000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/ErunA72ucU41wd2qW5Zwb.png",
-    "disponible": false
+    "disponible": false,
+    "genero": "Masculino",
+    "notas": "Amaderado, Cítrico, Clásico",
+    "ocasion": "Elegante, Trabajo",
+    "estacion": "Todo el año",
+    "clima": "Templado",
+    "momento": "Día, Noche"
   }
 ]

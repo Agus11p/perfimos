@@ -3,150 +3,300 @@
     "nombre": "HISTORIC OLMEDA AFNAN (UNISEX)",
     "precio": 73600,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/Wc2PC7dYBuw_L0SYkZjQn.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Oud, Amaderado, Especiado",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
     "nombre": "ODYSSEY MANDARIN SKY (MASCULINO)",
     "precio": 73600,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/Qm0eCI1r0WALg8CSZxW5n.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Cítrico, Mandarina, Fresco",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Primavera, Verano",
+    "clima": "Calor, Templado",
+    "momento": "Día"
   },
   {
     "nombre": "ODYSSEY CANDEE (FEMENINO)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/L2dbRJzV8rCiksXCfalJD.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Dulce, Vainilla, Gourmet",
+    "ocasion": "Casual, Salir",
+    "estacion": "Todo el año",
+    "clima": "Templado, Calor",
+    "momento": "Día, Noche"
   },
   {
-    "nombre": "ODYSSEY LIMONI  (HOMBRE)",
+    "nombre": "ODYSSEY LIMONI (HOMBRE)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/1766080688279-89080.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Cítrico, Limón, Aromático",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor",
+    "momento": "Día"
   },
   {
     "nombre": "MANDARIN SKY ELIXIR (MASCULINO)",
     "precio": 73600,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/Hvn-i38YnhZQteeCOm9UE.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Cítrico, Mandarina, Especiado",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Calor, Templado",
+    "momento": "Día, Noche"
   },
   {
     "nombre": "ODYSSEY HOMME WHITE EDITION (MASCULINO)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/CFiAtcC54tbyvGvLNzWyJ.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Fresco, Acuático, Blanco",
+    "ocasion": "Casual, Trabajo",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor, Templado",
+    "momento": "Día"
   },
   {
     "nombre": "ODYSSEY AQCUA (MASCULINO)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/bqvhA0Lg6xNidNmESsYh6.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Acuático, Fresco, Marino",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor",
+    "momento": "Día"
   },
   {
     "nombre": "SUBLIME LATTAFA (UNISEX)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/Wczfn2uUME-PwsGgUD0lt.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Oriental, Ambarino, Cálido",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
     "nombre": "NOBLE BLUSH (FEMENINO)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/wEk3LEqQmb1jO0Tky-aY4.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Floral, Rosa, Romance",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Noche"
   },
   {
     "nombre": "BADE AL OUD (MASCULINO)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/Wx4jFLvmq1KCQUb2YOg4j.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Oud, Amaderado, Especiado",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
     "nombre": "AMETHYST (FEMENINO)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/uFpbkGjt9y9qQ2Jss5HMk.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Floral, Frutal, Fresco",
+    "ocasion": "Casual, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Calor, Templado",
+    "momento": "Día, Noche"
   },
   {
     "nombre": "FAKHAR GOLD (UNISEX)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/tgoFPuCHMWRAc8RHuB8BW.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Oriental, Dorado, Ambarino",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Templado, Frío",
+    "momento": "Noche"
   },
   {
     "nombre": "FAKHAR ROSE (MUJER)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/FEKyonaUVY_VP-yKeaWoo.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Floral, Rosa, Romántico",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Noche"
   },
   {
     "nombre": "ASAD NEGRO (MASCULINO)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/WO6xtXp0DDBmeEdGA10C7.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Oud, Especiado, Amaderado",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
     "nombre": "ASAD ZANZIBAR (MASCULINO)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/H-F1rTNmeaHvDXdzhUPUN.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Especiado, Fresco, Exótico",
+    "ocasion": "Elegant, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Templado, Frío",
+    "momento": "Noche"
   },
   {
     "nombre": "YARA ROSA (FEMENINO)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/l96I1QXhKSx-2pWv1O6sf.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Floral, Rosa, Romántico",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Noche"
   },
   {
     "nombre": "YARA ELIXIR (FEMENINO)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/fctAQXhWvNrAlbLmZoFLo.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Dulce, Oriental, Gourmet",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Todo el año",
+    "clima": "Templado, Frío",
+    "momento": "Noche"
   },
   {
     "nombre": "YARA CANDY (FEMENINO)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/7iV6PykSFgIafGZugIKYh.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Dulce, Vainilla, Caramelo",
+    "ocasion": "Casual, Salir",
+    "estacion": "Todo el año",
+    "clima": "Templado, Calor",
+    "momento": "Día, Noche"
   },
   {
     "nombre": "YARA TOUS NARANJA (FEMENINO)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/3txzGTRpPki39SPNfsfPK.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Cítrico, Naranja, Fresco",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor, Templado",
+    "momento": "Día"
   },
   {
     "nombre": "YARA MOI BLANCO (UNISEX)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/5qDQqiG0j3l5-kg2cePyX.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Fresco, Blanco, Limpio",
+    "ocasion": "Casual, Trabajo",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor, Templado",
+    "momento": "Día"
   },
   {
     "nombre": "KHAMRAH LATTAFA (UNISEX)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/MyaM-vBJlCYx58TraXKhT.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Oriental, Ambarino, Cálido",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
     "nombre": "KHAMRAH QAHWA (UNISEX)",
     "precio": 62400,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/lIAxUn-D6vjlYWHsniWjE.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Café, Especiado, Oriental",
+    "ocasion": "Casual, Elegante",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Día, Noche"
   },
   {
     "nombre": "HAWAS FIRE (MASCULINO)",
     "precio": 73600,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/CiTp43_ki5A4unlu2YVG0.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Especiado, Amaderado, Picante",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche"
   },
   {
     "nombre": "HAWAS TROPICAL (MASCULINO)",
     "precio": 73600,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/k-SuzYi-NcdAQADazsDZb.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Frutal, Tropical, Fresco",
+    "ocasion": "Casual, Salir",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor, Templado",
+    "momento": "Día, Noche"
   },
   {
     "nombre": "HAWAS ICE (MASCULINO)",
     "precio": 73600,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/oEzKoj1D8SA3R4JfMYmkh.png",
-    "disponible": true
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Fresco, Helado, Acuático",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor",
+    "momento": "Día"
   }
 ]

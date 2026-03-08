@@ -20,24 +20,31 @@
         #buscador { width: 90%; max-width: 450px; padding: 14px 18px; background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.04) 100%); border: 2px solid rgba(212, 175, 55, 0.4); border-radius: 8px; color: #eee; outline: none; text-transform: uppercase; font-size: 12px; letter-spacing: 2px; font-weight: 500; transition: all 0.3s ease; }
         #buscador:focus { border-color: #d4af37; background: linear-gradient(135deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.08) 100%); box-shadow: 0 0 20px rgba(212, 175, 55, 0.3); }
         #buscador::placeholder { color: rgba(255,255,255,0.5); }
-        .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; padding: 15px; max-width: 1100px; margin: 0 auto; }
-        .card { background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(212,175,55,0.02) 100%); border: 1px solid rgba(212, 175, 55, 0.2); padding: 16px; text-align: center; display: flex; flex-direction: column; justify-content: space-between; border-radius: 12px; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
-        .card:hover { transform: translateY(-8px); border-color: rgba(212, 175, 55, 0.5); background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(212,175,55,0.05) 100%); box-shadow: 0 16px 40px rgba(212, 175, 55, 0.15); }
-        .card img { width: 100%; height: 160px; object-fit: contain; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.4)); transition: transform 0.3s ease; }
-        .card:hover img { transform: scale(1.05); filter: drop-shadow(0 8px 20px rgba(212, 175, 55, 0.3)); }
-        .card h3 { font-size: 10px; margin: 10px 0; text-transform: uppercase; letter-spacing: 1.5px; height: 35px; overflow: hidden; font-weight: 700; color: #f0f0f0; line-height: 1.2; }
-        .precio { font-size: 18px; font-weight: 800; color: #d4af37; margin: 10px 0; letter-spacing: 1px; text-shadow: 0 2px 8px rgba(212, 175, 55, 0.2); }
-        .btn-container { display: flex; gap: 8px; flex-direction: column; }
-        .btn-ig { background: linear-gradient(135deg, #f09433 0%, #bc1888 100%); color: white; text-decoration: none; padding: 12px 14px; font-size: 10px; font-weight: 800; border-radius: 6px; text-transform: uppercase; letter-spacing: 1px; transition: all 0.3s ease; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(240, 148, 51, 0.3); display: flex; align-items: center; justify-content: center; gap: 6px; }
-        .btn-ig i { font-size: 14px; }
-        .btn-ig:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(240, 148, 51, 0.5); }
-        .btn-wa { background: linear-gradient(135deg, #25d366 0%, #128c7e 100%) !important; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3) !important; }
-        .btn-wa:hover { box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5) !important; }
-        .btn-ig-link { background: linear-gradient(135deg, #f09433 0%, #bc1888 100%); box-shadow: 0 4px 15px rgba(240, 148, 51, 0.3); }
-        .btn-ig-link:hover { box-shadow: 0 8px 25px rgba(240, 148, 51, 0.5); }
-        @media (min-width: 480px) { .grid { grid-template-columns: repeat(3, 1fr); gap: 16px; padding: 16px; } .card h3 { font-size: 11px; height: 40px; } .precio { font-size: 19px; } .card img { height: 170px; } header h1 { font-size: 1.1rem; } }
-        @media (min-width: 768px) { .grid { grid-template-columns: repeat(4, 1fr); gap: 18px; padding: 18px; } .card { padding: 18px; } .card h3 { font-size: 12px; height: 45px; } .precio { font-size: 20px; } .card img { height: 180px; } header h1 { font-size: 1.35rem; } #buscador { font-size: 13px; } }
-        @media (min-width: 1024px) { .grid { gap: 20px; padding: 20px; } .card { padding: 20px; } header h1 { font-size: 1.6rem; } }
+        .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto; }
+        .card { position: relative; width: 100%; height: 300px; cursor: pointer; perspective: 1000px; }
+        .card-front, .card-back { position: absolute; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 20px; background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%); border: 2px solid #d4af37; border-radius: 15px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(212, 175, 55, 0.2); backface-visibility: hidden; transition: transform 0.6s ease; }
+        .card-back { transform: rotateY(180deg); padding: 16px; }
+        .card.flipped .card-front { transform: rotateY(180deg); }
+        .card.flipped .card-back { transform: rotateY(0deg); }
+        .card-front { text-align: center; }
+        .card h3 { font-size: 11px; margin: 10px 0 5px 0; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; color: #f0f0f0; line-height: 1.3; }
+        .precio { font-size: 18px; font-weight: 800; color: #d4af37; margin: 5px 0; letter-spacing: 1px; text-shadow: 0 2px 8px rgba(212, 175, 55, 0.3); }
+        .card img { width: 100%; height: 130px; object-fit: contain; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5)); transition: transform 0.3s ease; }
+        .card:hover img { transform: scale(1.08); }
+        .card-back { text-align: left; font-size: 9px; line-height: 1.5; color: #e0e0e0; overflow-y: auto; padding: 14px; }
+        .card-back div { margin: 8px 0; padding: 8px 0; border-bottom: 1px solid rgba(212, 175, 55, 0.25); display: flex; flex-direction: column; gap: 2px; }
+        .card-back div:last-child { border-bottom: none; margin-bottom: 0; }
+        .card-back label { color: #fcf6ba; font-weight: 700; font-size: 9px; text-transform: uppercase; letter-spacing: 1.2px; display: block; margin-bottom: 2px; }
+        .no-encontrado { grid-column: 1/-1; text-align: center; padding: 40px 20px; color: rgba(212, 175, 55, 0.8); font-size: 14px; letter-spacing: 1px; }
+        .fab-container { position: fixed; bottom: 25px; right: 25px; display: flex; flex-direction: column-reverse; gap: 15px; z-index: 999; }
+        .fab { width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; color: white; font-size: 28px; transition: all 0.3s ease; box-shadow: 0 8px 25px rgba(0,0,0,0.4); }
+        .fab:hover { transform: scale(1.1); box-shadow: 0 12px 35px rgba(0,0,0,0.5); }
+        .fab-wa { background: linear-gradient(135deg, #25d366 0%, #128c7e 100%); }
+        .fab-ig { background: linear-gradient(135deg, #f09433 0%, #bc1888 100%); }
+        @media (max-width: 479px) { .grid { gap: 15px; padding: 15px; } .fab-container { bottom: 15px; right: 15px; gap: 12px; } .fab { width: 50px; height: 50px; font-size: 22px; } .card { height: 280px; } .card img { height: 100px; } .card h3 { font-size: 10px; } .precio { font-size: 15px; } .card-back { font-size: 9px; padding: 14px; } }
+        @media (min-width: 480px) { .grid { grid-template-columns: repeat(3, 1fr); gap: 18px; padding: 18px; } .card { height: 310px; } .card h3 { font-size: 11px; } .precio { font-size: 19px; } .card img { height: 140px; } header h1 { font-size: 1.1rem; } .card-back { font-size: 10px; } }
+        @media (min-width: 768px) { .grid { grid-template-columns: repeat(4, 1fr); gap: 20px; padding: 20px; } .card { height: 330px; } .card h3 { font-size: 12px; } .precio { font-size: 20px; } .card img { height: 160px; } header h1 { font-size: 1.35rem; } #buscador { font-size: 13px; } .card-back { font-size: 10px; } }
+        @media (min-width: 1024px) { .grid { gap: 25px; padding: 25px; } .card { height: 360px; } .card h3 { font-size: 12px; } header h1 { font-size: 1.8rem; } .card-back { font-size: 11px; } }
     </style>
 </head>
 <body>
@@ -48,39 +55,83 @@
     </header>
     <div class="buscador-container">
         <input type="text" id="buscador" placeholder="BUSCAR PERFUME...">
+
     </div>
     <main id="lista-productos" class="grid"></main>
+    <div class="fab-container">
+        <a href="#" id="fab-wa" class="fab fab-wa" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" id="fab-ig" class="fab fab-ig" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
     <script>
         const grid = document.getElementById('lista-productos');
+        const fabWA = document.getElementById('fab-wa');
         let productos = [];
+        let productoSeleccionado = null;
+        
         async function cargar() {
             const res = await fetch('arabes.json?v=' + new Date().getTime()); 
             productos = await res.json();
             render(productos);
         }
+        
         function render(lista) {
             grid.innerHTML = '';
+            if (lista.length === 0) {
+                const noEnc = document.createElement('div');
+                noEnc.className = 'no-encontrado';
+                noEnc.textContent = '❌ Perfume no encontrado - Próximamente agregaremos más opciones';
+                grid.appendChild(noEnc);
+                productoSeleccionado = null;
+                actualizarFAB();
+                return;
+            }
             lista.forEach(p => {
                 const div = document.createElement('div');
                 div.className = 'card';
-                const mensajeWA = `Hola! Me interesa este perfume: ${p.nombre}`;
-                const linkWA = `https://wa.me/543487229170?text=${encodeURIComponent(mensajeWA)}`;
                 div.innerHTML = `
-                    <img src="${p.imagen}">
-                    <h3>${p.nombre}</h3>
-                    <p class="precio">$${p.precio.toLocaleString('es-AR')}</p>
-                    <div class="btn-container">
-                        <a href="${linkWA}" target="_blank" class="btn-ig btn-wa"><i class="fab fa-whatsapp"></i> WHATSAPP</a>
-                        <a href="https://instagram.com/_perfimos" target="_blank" class="btn-ig btn-ig-link"><i class="fab fa-instagram"></i> INSTAGRAM</a>
+                    <div class="card-front">
+                        <img src="${p.imagen}">
+                        <h3>${p.nombre}</h3>
+                        <p class="precio">$${p.precio.toLocaleString('es-AR')}</p>
+                    </div>
+                    <div class="card-back">
+                        <div><label>Notas:</label> ${p.notas}</div>
+                        <div><label>Ocasión:</label> ${p.ocasion}</div>
+                        <div><label>Estación:</label> ${p.estacion}</div>
+                        <div><label>Clima:</label> ${p.clima}</div>
+                        <div><label>Momento:</label> ${p.momento}</div>
                     </div>
                 `;
+                div.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    div.classList.toggle('flipped');
+                    productoSeleccionado = p;
+                    actualizarFAB();
+                });
                 grid.appendChild(div);
             });
         }
+        
+        function actualizarFAB() {
+            if (productoSeleccionado) {
+                const msg = `hola buenas para una consulta`;
+                document.getElementById('fab-wa').href = `https://wa.me/543487229170?text=${encodeURIComponent(msg + ' - ' + productoSeleccionado.nombre)}`;
+                document.getElementById('fab-wa').style.pointerEvents = 'auto';
+                document.getElementById('fab-wa').style.opacity = '1';
+            } else {
+                document.getElementById('fab-wa').href = '#';
+                document.getElementById('fab-wa').style.pointerEvents = 'none';
+                document.getElementById('fab-wa').style.opacity = '0.5';
+            }
+        }
+        
+        document.getElementById('fab-ig').href = 'https://instagram.com/_perfimos';
+        
         document.getElementById('buscador').addEventListener('input', (e) => {
             const t = e.target.value.toLowerCase();
             render(productos.filter(p => p.nombre.toLowerCase().includes(t)));
         });
+        
         cargar();
     </script>
     <footer style="text-align: center; padding: 30px 20px; font-size: 11px; color: rgba(212, 175, 55, 0.9); letter-spacing: 3px; text-transform: uppercase; font-weight: 700; background: linear-gradient(180deg, rgba(5,5,5,0) 0%, rgba(5,5,5,0.5) 100%); text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);">
