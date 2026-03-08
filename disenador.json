@@ -9,7 +9,9 @@
     "ocasion": "Casual, Trabajo",
     "estacion": "Primavera, Verano",
     "clima": "Calor, Templado",
-    "momento": "Día"
+    "momento": "Día",
+    "descripcion": "Un perfume fresco y aromático con tonos especiados. Le Beau es el equilibrio perfecto entre masculinidad y sofisticación, pensado para hombres modernos que viven con pasión.",
+    "recomendacion": "Ideal para trabajo y momentos casuales en primavera y verano. Úsalo de día en climas cálidos. Es un aroma profesional que inspira confianza."
   },
   {
     "nombre": "Jean Paul Gaultier Divine 125ml (Femenino)",
@@ -21,7 +23,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Primavera, Verano",
     "clima": "Templado, Calor",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Divine es la esencia de la feminidad. Combina notas florales con frutas dulces que crean un aroma romántico y eterno. Perfecto para ocasiones especiales.",
+    "recomendacion": "Ideal para noches elegantes en primavera y verano. Úsalo en ocasiones para salir o eventos especiales. Compatible con climas templados y cálidos."
   },
   {
     "nombre": "Jean Paul Gaultier Paradise Fall 125ml (Masculino)",
@@ -33,7 +37,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Paradise Fall combina el lujo oriental con calidez amaderada. Es un perfume sensual que transmite sofisticación y masculinidad en sus notas especiadas.",
+    "recomendacion": "Perfecto para noches elegantes en otoño e invierno. Úsalo en ocasiones formales o para impresionar. Compatible con climas fríos y templados."
   },
   {
     "nombre": "Azzaro Wanted Elixir 100ml (Masculino)",
@@ -45,7 +51,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Azzaro Wanted Elixir es intensidad refinada. Con notas especiadas y calidez amaderada, es un perfume seductor que evoca mysterio y poder.",
+    "recomendacion": "Ideal para noches especiales en otoño e invierno. Úsalo en ocasiones donde quieras impresionar. Compatible con climas fríos y templados."
   },
   {
     "nombre": "Azzaro Wanted Parfum 100ml (Masculino)",
@@ -57,7 +65,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Azzaro Wanted Parfum es la esencia de la seduccin. Con especias y calidez amaderada, crea una nube sensual que perdura durante toda la noche.",
+    "recomendacion": "Perfecto para noches románticas en otoño e invierno. Úsalo en climas fríos o templados. Es un aroma que transmite confianza y atractivo."
   },
   {
     "nombre": "Xerjoff Erba Gold 100ml (Unisex)",
@@ -69,7 +79,9 @@
     "ocasion": "Casual, Trabajo",
     "estacion": "Primavera, Verano",
     "clima": "Calor, Templado",
-    "momento": "Día"
+    "momento": "Día",
+    "descripcion": "Xerjoff Erba Gold es frescura herbacea elevada a arte. Combina notas florales limpias con un toque dorado que lo hace especial. Perfecto para el trabajo.",
+    "recomendacion": "Ideal para días de trabajo en primavera y verano. Úsalo de día en oficinas o ambientes profesionales. Compatible con climas cálidos."
   },
   {
     "nombre": "Xerjoff Soprano 100ml (Unisex)",
@@ -81,7 +93,9 @@
     "ocasion": "Elegante, Casual",
     "estacion": "Primavera, Verano",
     "clima": "Templado, Calor",
-    "momento": "Día, Noche"
+    "momento": "Día, Noche",
+    "descripcion": "Xerjoff Soprano es elegancia expresada en una botella. Con tonos cítricos y florales, es un aroma sofisticado que funciona en cualquier contexto.",
+    "recomendacion": "Versátil para primavera y verano. Úsalo de día o noche, en momentos casuales o elegantes. Compatible con climas templados y cálidos."
   },
   {
     "nombre": "Spicebomb (Masculino)",
@@ -93,7 +107,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Spicebomb es explosivo en los sentidos. Con notas picantes y amaderadas, es un aroma potente que comunica masculinidad y poder. No para los tímidos.",
+    "recomendacion": "Perfecto para noches de gala en otoño e invierno. Úsalo en climas fríos o templados. Es un aroma que marca presencia inevitablemente."
   },
   {
     "nombre": "212 Men Heroes (Masculino)",
@@ -105,7 +121,9 @@
     "ocasion": "Casual, Deporte",
     "estacion": "Verano, Primavera",
     "clima": "Calor, Templado",
-    "momento": "Día"
+    "momento": "Día",
+    "descripcion": "212 Men Heroes es el aroma del héroe moderno. Fresco, deportivo y energizante, es perfecto para el hombre de acción que vive cada día como una aventura.",
+    "recomendacion": "Ideal para días activos en verano y primavera. Úsalo en actividades deportivas o momentos casuales. Compatible con climas cálidos. Energizante y refrescante."
   },
   {
     "nombre": "La Vie Est Belle (Femenino)",
@@ -117,7 +135,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "La Vie Est Belle celebra la belleza de la vida. Con notas orientales y dulces, es un aroma posit ivo que transmite alegría y optimismo en cada pulverización.",
+    "recomendacion": "Perfecto para noches elegantes en otoño e invierno. Úsalo en ocasiones especiales. Compatible con climas fríos. Un aroma que eleva el ánimo."
   },
   {
     "nombre": "Jean Paul Gaultier Elixir 125ml (Masculino)",
@@ -129,7 +149,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Jean Paul Gaultier Elixir es un oriental potente con notas especiadas y amaderadas. Un aroma para noches de gala donde la sofisticación es obligatoria.",
+    "recomendacion": "Ideal para noches elegantes y especiales en otoño e invierno. Compatible con climas fríos. Un aroma de lujo que impresiona."
   },
   {
     "nombre": "Jean Paul Gaultier Le Parfum 125ml (Masculino)",
@@ -141,7 +163,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Templado, Frío",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Jean Paul Gaultier Le Parfum es sofisticación absoluta. Con notas florales y amaderadas, es un perfume para hombres que exigen lo mejor en cada aspecto de sus vidas.",
+    "recomendacion": "Perfecto para ocasiones de gala en otoño e invierno. Ideal para impresionar. Compatible con climas templados. Un aroma inal comparable."
   },
   {
     "nombre": "Xerjoff Erba Pura 100ml (Unisex)",
@@ -153,7 +177,9 @@
     "ocasion": "Casual, Trabajo",
     "estacion": "Primavera, Verano",
     "clima": "Calor, Templado",
-    "momento": "Día"
+    "momento": "Día",
+    "descripcion": "Xerjoff Erba Pura es pureza extrema. Con notas herbaceas y limpias, es el aroma perfecto para quienes aman lo natural y lo fresco.",
+    "recomendacion": "Ideal para días de trabajo en primavera y verano. Compatible con climas cálidos. Un aroma minimalista y refrescante."
   },
   {
     "nombre": "One Million Paco Rabanne (Masculino)",
@@ -165,7 +191,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "One Million es glamour puro. Un oriental dulce y adictivo que comunica éxito y sofisticación. Perfecto para quien disfruta del lujo.",
+    "recomendacion": "Perfecto para noches de gala en otoño e invierno. Ideal para ocasiones especiales. Compatible con climas fríos. Un aroma de status."
   },
   {
     "nombre": "Bleu de Chanel (Masculino)",
@@ -177,6 +205,8 @@
     "ocasion": "Elegante, Trabajo",
     "estacion": "Todo el año",
     "clima": "Templado",
-    "momento": "Día, Noche"
+    "momento": "Día, Noche",
+    "descripcion": "Bleu de Chanel es el perfume timeless. Clásico, sofisticado y versátil, combina amaderados con cítricos en un equilibrio perfecto que funciona en cualquier contexto.",
+    "recomendacion": "Ideal para cualquier época del año. Úsalo de día o noche, en trabajo o elegancia. Funciona en cualquier clima. Un must-have absoluto."
   }
 ]

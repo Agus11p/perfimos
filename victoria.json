@@ -9,7 +9,9 @@
     "ocasion": "Casual, Deporte",
     "estacion": "Primavera, Verano",
     "clima": "Calor, Templado",
-    "momento": "Día"
+    "momento": "Día",
+    "descripcion": "Pear Glacé es refrescante y cristalino. Con notas cítricas de pera heladarefresca la piel y el ánimo con elegancia.",
+    "recomendacion": "Ideal para días activos en primavera y verano. Úsalo durante actividades deportivas o momentos casuales. Compatible con climas cálidos."
   },
   {
     "nombre": "BARE VAINILLA",
@@ -21,7 +23,9 @@
     "ocasion": "Casual, Salir",
     "estacion": "Todo el año",
     "clima": "Templado, Calor",
-    "momento": "Día, Noche"
+    "momento": "Día, Noche",
+    "descripcion": "Bare Vainilla es calidez envolvente. Con notas suaves de vainilla, es un aroma confortante que se adapta a cualquier momento del año.",
+    "recomendacion": "Versátil durante todo el año. Úsalo de día o noche, en momentos casuales o para salir. Compatible con cualquier temperatura."
   },
   {
     "nombre": "LOVE ADDICT SHIMMER",
@@ -33,7 +37,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Todo el año",
     "clima": "Templado, Calor",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Love Addict Shimmer es adición pura. Dulce y romant ico con brillo glamouroso, es el perfume para noches donde el romance es protagonista.",
+    "recomendacion": "Perfecto para noches elegantes en cualquier estación. Úsalo cuando quieras sentirte especial y atractiva. Compatible con climas templados."
   },
   {
     "nombre": "VELVET PETALS SHIMMER",
@@ -45,7 +51,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Primavera, Verano",
     "clima": "Templado, Calor",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Velvet Petals Shimmer es suavidad de terciopelo. Con notas de rosa delicada y brillo sutil, es elegancia en su forma más pura.",
+    "recomendacion": "Ideal para noches elegantes en primavera y verano. Úsalo en ocasiones especiales. Compatible con climas templados. Sofisticado y fem enino."
   },
   {
     "nombre": "VELVET PETALS",
@@ -57,7 +65,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Primavera, Verano",
     "clima": "Templado, Calor",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Velvet Petals es sensualidad floral. Notas de rosa pura transmiten feminidad y romance. Un clásico que nunca pasa de moda.",
+    "recomendacion": "Perfecto para noches románticas en primavera y verano. Úsalo en ocasiones elegantes donde quieras sentirte fem enina."
   },
   {
     "nombre": "RUSH",
@@ -69,7 +79,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Rush es del vertigo de la seducción. Adictivo y sensual, es un perfume irresistible para quien ama la intensidad en las noches.",
+    "recomendacion": "Perfecto para noches especiales en otoño e invierno. Úsalo en climas fríos o templados cuando quieras cautivar."
   },
   {
     "nombre": "AGUA KISS SHIMMER",
@@ -81,7 +93,9 @@
     "ocasion": "Casual, Deporte",
     "estacion": "Verano, Primavera",
     "clima": "Calor, Templado",
-    "momento": "Día"
+    "momento": "Día",
+    "descripcion": "Agua Kiss Shimmer es frescura con un toque de amor. Acuático y cristalino, evoca besos y momentos felices bajo el sol.",
+    "recomendacion": "Ideal para días activos en verano y primavera. Úsalo durante actividades deportivas o casuales. Compatible con climas cálidos."
   },
   {
     "nombre": "CAKE CONFETTI SHIMMER",
@@ -93,7 +107,9 @@
     "ocasion": "Casual, Fiesta",
     "estacion": "Todo el año",
     "clima": "Templado, Calor",
-    "momento": "Día, Noche"
+    "momento": "Día, Noche",
+    "descripcion": "Cake Confetti Shimmer es celebración en cada pulverización. Dulce y festivo con brillo sutil, perfecto para momentos de fiesta y alegría.",
+    "recomendacion": "Versalel durante todo el año. Úsalo en fiestas, celebraciones o momentos alegres. Compatible con cualquier temperatura."
   },
   {
     "nombre": "AGUA KISS",
@@ -105,7 +121,9 @@
     "ocasion": "Casual, Deporte",
     "estacion": "Verano, Primavera",
     "clima": "Calor, Templado",
-    "momento": "Día"
+    "momento": "Día",
+    "descripcion": "Agua Kiss es pureza líquida. Acuático y limpio, es el aroma perfecto para refrescarte en días calurosos sin perder elegancia.",
+    "recomendacion": "Ideal para días de verano y primavera. Úsalo de día en momentos deportivos o casuales. Compatible con climas cálidos."
   },
   {
     "nombre": "BARE VAINILLA SHIMMER",
@@ -117,7 +135,9 @@
     "ocasion": "Casual, Salir",
     "estacion": "Todo el año",
     "clima": "Templado, Calor",
-    "momento": "Día, Noche"
+    "momento": "Día, Noche",
+    "descripcion": "Bare Vainilla Shimmer es lo mismo que amas de Bare Vainilla pero con un brillo sutil adicional. Versátil y glamouroso.",
+    "recomendacion": "Versátil durante todo el año. Úsalo de día o noche, en momentos casuales o para salir. Compatible con cualquier temperatura."
   },
   {
     "nombre": "COCONUT PASSION",
@@ -129,7 +149,9 @@
     "ocasion": "Casual, Salir",
     "estacion": "Verano, Primavera",
     "clima": "Calor, Templado",
-    "momento": "Día, Noche"
+    "momento": "Día, Noche",
+    "descripcion": "Coconut Passion evoca playas tropi cales y atardeceres mágicos. Con notas de coco auténtico, es el aroma de la pasión y la aventura.",
+    "recomendacion": "Versátil para verano y primavera. Úsalo de día o noche, en ocasiones casuales o para salir. Compatible con climas cálidos."
   },
   {
     "nombre": "LOVE SPELL CANDIED",
@@ -141,7 +163,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Todo el año",
     "clima": "Templado, Calor",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Love Spell Candied es magia dulce. Un hechizo romántico con notas azucaradas que te envuelven en ensueo y romance puro.",
+    "recomendacion": "Perfecto para noches románticas en cualquier época del año. Úsalo en ocasiones elegantes. Compatible con climas templados."
   },
   {
     "nombre": "LOVE SPELL SHIMMER",
@@ -153,7 +177,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Primavera, Verano",
     "clima": "Templado, Calor",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Love Spell Shimmer es el hechizo de amor con un brillo puro. Romántico y glamouroso, envuelve con magia en cada pulverización.",
+    "recomendacion": "Ideal para noches elegantes en primavera y verano. Úsalo en ocasiones especiales y románticas. Compatible con climas templados."
   },
   {
     "nombre": "AMBER ROMANCE SHIMMER",
@@ -165,7 +191,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Amber Romance Shimmer es calidez envolvente. Con notas ámbar cálidas y brillo sutil, perfecta para noches románticas en clima frío.",
+    "recomendacion": "Perfecto para noches elegantes en otoño e invierno. Úsalo en climas fríos o templados. Ideal para momentos románticos."
   },
   {
     "nombre": "PURE SEDUCTION",
@@ -177,7 +205,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Pure Seduction es el arte de la seduccin. Sensual y envolvente, con almizcares intensos que crean una nube irresistible.",
+    "recomendacion": "Perfecto para noches de seducción en otoño e invierno. Úsalo en climas fríos o templados cuando quieras captar toda la atención."
   },
   {
     "nombre": "RUSH SHIMMER",
@@ -189,7 +219,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Rush Shimmer es la adsucción con brillo. Sensual y glamourosa, es irresistible en cualquier noche elegante.",
+    "recomendacion": "Perfecto para noches especiales en otoño e invierno. Ideal en climas fríos. Un aroma que seducer inevitablemente."
   },
   {
     "nombre": "COCONUT PASSION SHIMMER",
@@ -201,7 +233,9 @@
     "ocasion": "Casual, Salir",
     "estacion": "Verano, Primavera",
     "clima": "Calor, Templado",
-    "momento": "Día, Noche"
+    "momento": "Día, Noche",
+    "descripcion": "Coconut Passion Shimmer es lo que amas de Coconut Passion con un brillo tropical añadido. Versátil y glamourosa.",
+    "recomendacion": "Versátil para verano y primavera. Úsalo de día o noche, en ocasiones casuales o para salir. Compatible con climas cálidos."
   },
   {
     "nombre": "TEMPATION SHIMMER",
@@ -213,7 +247,9 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Todo el año",
     "clima": "Templado, Calor",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Tempation Shimmer es la tentación hecha perfume. Dulce y glamourosa, brilla con sensualidad en cada noche especial.",
+    "recomendacion": "Perfecto para noches elegantes en cualquier época del año. Compatible con climas templados. Tentador e irresistible."
   },
   {
     "nombre": "LOVE SPELL",
@@ -225,6 +261,8 @@
     "ocasion": "Elegante, Salir",
     "estacion": "Primavera, Verano",
     "clima": "Templado, Calor",
-    "momento": "Noche"
+    "momento": "Noche",
+    "descripcion": "Love Spell es hechizo puro de amor. Con notas dulces y románticas, te envuelve en un aura de magia y cariño.",
+    "recomendacion": "Ideal para noches románticas en primavera y verano. Úsalo en ocasiones elegantes donde le amor es protagonista."
   }
 ]
