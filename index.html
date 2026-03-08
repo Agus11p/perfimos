@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PERFIMOS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;900&family=Montserrat:wght@300;500;800&display=swap');
+        body { margin: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; background-color: #050505; font-family: 'Montserrat', sans-serif; overflow: hidden; position: relative; }
+        #fondo-animado { position: absolute; top: 0; left: 0; width: 200%; height: 200%; background-image: radial-gradient(circle, rgba(212, 175, 55, 0.2) 1px, transparent 1px), radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px); background-size: 30px 30px, 60px 60px; animation: moveBg 40s linear infinite; z-index: 1; }
+        @keyframes moveBg { 0% { transform: translate(0, 0); } 100% { transform: translate(-50px, -50px); } }
+        .content { position: relative; z-index: 10; text-align: center; width: 100%; max-width: 500px; padding: 20px; box-sizing: border-box; }
+        h1 { font-family: 'Cinzel', serif; font-size: clamp(2.5rem, 12vw, 4rem); letter-spacing: 12px; margin: 0 0 50px 0; font-weight: 900; background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.7)); }
+        .menu { display: flex; flex-direction: column; gap: 18px; width: 100%; }
+        .btn-luxury { text-decoration: none; color: #d4af37; padding: 28px 20px; border: 1px solid rgba(212, 175, 55, 0.3); background: linear-gradient(135deg, rgba(25, 25, 25, 0.7) 0%, rgba(5, 5, 5, 0.9) 100%); font-size: 14px; letter-spacing: 6px; text-transform: uppercase; font-weight: 800; transition: all 0.4s; backdrop-filter: blur(10px); box-shadow: 0 15px 35px rgba(0,0,0,0.5); }
+        .btn-luxury:active { transform: scale(0.96); border-color: #fcf6ba; }
+    </style>
+</head>
+<body>
+    <div id="fondo-animado"></div>
+    <div class="content">
+        <h1>PERFIMOS</h1>
+        <div class="menu">
+            <a href="disenador.html" class="btn-luxury">Diseñador</a>
+            <a href="arabes.html" class="btn-luxury">Línea Árabe</a>
+            <a href="victoria.html" class="btn-luxury">Victoria Secret</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ÁRABES | PERFIMOS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;800&family=Montserrat:wght@300;500;600;800&display=swap');
+        * { box-sizing: border-box; }
+        body { margin: 0; background: linear-gradient(135deg, #0a0a0a 0%, #1a0f0a 100%); font-family: 'Montserrat', sans-serif; color: #eee; min-height: 100vh; }
+        #fondo-animado { position: fixed; top: 0; left: 0; width: 200%; height: 200%; background-image: radial-gradient(circle, rgba(212, 175, 55, 0.1) 1px, transparent 1px), radial-gradient(circle, rgba(255, 255, 255, 0.02) 1px, transparent 1px); background-size: 30px 30px, 60px 60px; animation: moveBg 50s linear infinite; z-index: -1; }
+        @keyframes moveBg { 0% { transform: translate(0, 0); } 100% { transform: translate(-50px, -50px); } }
+        header { padding: 25px 20px; text-align: center; position: sticky; top: 0; background: linear-gradient(180deg, rgba(5,5,5,0.98) 0%, rgba(5,5,5,0.95) 100%); backdrop-filter: blur(15px); z-index: 100; border-bottom: 2px solid rgba(212, 175, 55, 0.3); box-shadow: 0 8px 32px rgba(0,0,0,0.3); }
+        header h1 { font-family: 'Cinzel', serif; font-size: 2rem; letter-spacing: 10px; margin: 0; background: linear-gradient(to right, #d4af37, #f0e68c, #daa520); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 0 20px rgba(212, 175, 55, 0.3); font-weight: 800; }
+        .volver { position: absolute; left: 25px; top: 50%; transform: translateY(-50%); color: #d4af37; text-decoration: none; font-size: 28px; font-weight: 800; transition: all 0.3s ease; padding: 10px 15px; border-radius: 8px; }
+        .volver:hover { color: #f0e68c; transform: translateY(-50%) scale(1.2); text-shadow: 0 0 15px rgba(212, 175, 55, 0.5); }
+        .buscador-container { padding: 20px 15px; text-align: center; }
+        #buscador { width: 90%; max-width: 450px; padding: 14px 18px; background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.04) 100%); border: 2px solid rgba(212, 175, 55, 0.4); border-radius: 8px; color: #eee; outline: none; text-transform: uppercase; font-size: 12px; letter-spacing: 2px; font-weight: 500; transition: all 0.3s ease; }
+        #buscador:focus { border-color: #d4af37; background: linear-gradient(135deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.08) 100%); box-shadow: 0 0 20px rgba(212, 175, 55, 0.3); }
+        #buscador::placeholder { color: rgba(255,255,255,0.5); }
+        .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; padding: 20px; max-width: 1100px; margin: 0 auto; }
+        .card { background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(212,175,55,0.02) 100%); border: 1px solid rgba(212, 175, 55, 0.2); padding: 18px; text-align: center; display: flex; flex-direction: column; justify-content: space-between; border-radius: 12px; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
+        .card:hover { transform: translateY(-8px); border-color: rgba(212, 175, 55, 0.5); background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(212,175,55,0.05) 100%); box-shadow: 0 16px 40px rgba(212, 175, 55, 0.15); }
+        .card img { width: 100%; height: 180px; object-fit: contain; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.4)); transition: transform 0.3s ease; }
+        .card:hover img { transform: scale(1.05); filter: drop-shadow(0 8px 20px rgba(212, 175, 55, 0.3)); }
+        .card h3 { font-size: 11px; margin: 12px 0; text-transform: uppercase; letter-spacing: 1.5px; height: 40px; overflow: hidden; font-weight: 700; color: #f0f0f0; line-height: 1.2; }
+        .precio { font-size: 20px; font-weight: 800; color: #d4af37; margin: 12px 0; letter-spacing: 1px; text-shadow: 0 2px 8px rgba(212, 175, 55, 0.2); }
+        .btn-container { display: flex; gap: 10px; flex-direction: column; }
+        .btn-ig { background: linear-gradient(135deg, #f09433 0%, #bc1888 100%); color: white; text-decoration: none; padding: 13px 16px; font-size: 11px; font-weight: 800; border-radius: 8px; text-transform: uppercase; letter-spacing: 1px; transition: all 0.3s ease; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(240, 148, 51, 0.3); display: flex; align-items: center; justify-content: center; gap: 8px; }
+        .btn-ig i { font-size: 16px; }
+        .btn-ig:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(240, 148, 51, 0.5); }
+        .btn-wa { background: linear-gradient(135deg, #25d366 0%, #128c7e 100%) !important; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3) !important; }
+        .btn-wa:hover { box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5) !important; }
+        .btn-ig-link { background: linear-gradient(135deg, #f09433 0%, #bc1888 100%); box-shadow: 0 4px 15px rgba(240, 148, 51, 0.3); }
+        .btn-ig-link:hover { box-shadow: 0 8px 25px rgba(240, 148, 51, 0.5); }
+        @media (min-width: 768px) { .grid { grid-template-columns: repeat(4, 1fr); gap: 20px; } }
+    </style>
+</head>
+<body>
+    <div id="fondo-animado"></div>
+    <header>
+        <a href="index.html" class="volver">←</a>
+        <h1>LÍNEA ÁRABE</h1>
+    </header>
+    <div class="buscador-container">
+        <input type="text" id="buscador" placeholder="BUSCAR PERFUME...">
+    </div>
+    <main id="lista-productos" class="grid"></main>
+    <script>
+        const grid = document.getElementById('lista-productos');
+        let productos = [];
+        async function cargar() {
+            const res = await fetch('arabes.json?v=' + new Date().getTime()); 
+            productos = await res.json();
+            render(productos);
+        }
+        function render(lista) {
+            grid.innerHTML = '';
+            lista.forEach(p => {
+                const div = document.createElement('div');
+                div.className = 'card';
+                const mensajeWA = `Hola! Me interesa este perfume: ${p.nombre}`;
+                const linkWA = `https://wa.me/543487229170?text=${encodeURIComponent(mensajeWA)}`;
+                div.innerHTML = `
+                    <img src="${p.imagen}">
+                    <h3>${p.nombre}</h3>
+                    <p class="precio">$${p.precio.toLocaleString('es-AR')}</p>
+                    <div class="btn-container">
+                        <a href="${linkWA}" target="_blank" class="btn-ig btn-wa"><i class="fab fa-whatsapp"></i> WHATSAPP</a>
+                        <a href="https://instagram.com/_perfimos" target="_blank" class="btn-ig btn-ig-link"><i class="fab fa-instagram"></i> INSTAGRAM</a>
+                    </div>
+                `;
+                grid.appendChild(div);
+            });
+        }
+        document.getElementById('buscador').addEventListener('input', (e) => {
+            const t = e.target.value.toLowerCase();
+            render(productos.filter(p => p.nombre.toLowerCase().includes(t)));
+        });
+        cargar();
+    </script>
+</body>
+</html>
