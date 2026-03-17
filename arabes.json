@@ -12,7 +12,52 @@
     "momento": "Noche",
     "descripcion": "Un perfume oriental de carácter fuerte y profundo. Combina notas de oud auténtico con matices amaderados y especiados que lo hacen ideal para ocasiones de gala. Es un aroma sofisticado que permanece durante horas.",
     "recomendacion": "Perfecto para noches especiales, eventos elegantes y cenas formales. Úsalo en otoño e invierno, especialmente en temperaturas frías. Es un perfume de noche que brilla en momentos importantes.",
-    "dupe": "Similar a Creed Oud Imperial y Decant 40"
+    "dupe": "Similar a Creed Oud Imperial"
+  },
+  {
+    "nombre": "AETHER EXTRAIT (UNISEX)",
+    "precio": 73600,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/I9WDJq65E48jJFBCpZnzw.png",
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Amaderado, Especiado, Profundo",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Aether Extrait es intensidad concentrada. Una fragancia extrait de alta proyección con notas amaderadas y especiadas que crean una presencia magnética e irresistible.",
+    "recomendacion": "Ideal para noches elegantes en otoño e invierno. Úsalo en ocasiones donde quieras dejar una impresión duradera. Compatible con climas fríos y templados.",
+    "dupe": "Similar a Tom Ford Oud Wood"
+  },
+  {
+    "nombre": "ODYSSEY GO MANGO (UNISEX)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/iVkuViGN-wfClLUnztppB.png",
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Frutal, Mango, Tropical",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Primavera, Verano",
+    "clima": "Calor, Templado",
+    "momento": "Día",
+    "descripcion": "Odyssey Go Mango es energía tropical pura. Con notas de mango jugoso y tonos frutales vibrantes, es el aroma perfecto para días activos y llenos de movimiento.",
+    "recomendacion": "Ideal para días cálidos de primavera y verano. Úsalo en actividades deportivas o momentos casuales. Su carácter frutal y refrescante funciona muy bien en climas cálidos.",
+    "dupe": "Similar a Versace Dylan Turquoise"
+  },
+  {
+    "nombre": "ODYSSEY BAHAMAS (UNISEX)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/J8j-z6kK0cKEuyCoinqGN.png",
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Acuático, Tropical, Fresco",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor, Templado",
+    "momento": "Día",
+    "descripcion": "Odyssey Bahamas evoca playas paradisíacas y brisa marina. Notas acuáticas y tropicales que transportan a un paraíso caribeño con cada pulverización.",
+    "recomendacion": "Perfecto para días de verano, especialmente en actividades al aire libre o en la playa. Compatible con climas cálidos. Fresco y energizante.",
+    "dupe": "Similar a Acqua di Gio de Armani"
   },
   {
     "nombre": "ODYSSEY MANDARIN SKY (MASCULINO)",
@@ -25,8 +70,8 @@
     "estacion": "Primavera, Verano",
     "clima": "Calor, Templado",
     "momento": "Día",
-    "descripcion": "Aroma fresco y vivaz que captura la esencia de cítricos cálidos. Con notas de mandarina pura, es ideal para la actividad y el movimiento. Un perfume dinámico que te acompaña durante todo el día con energía renovadora.",
-    "recomendacion": "Perfecto para usar en días cálidos de primavera y verano. Úsalo durante el día, especialmente si practicas deportes o tienes actividades al aire libre. Es ideal para climas cálidos y templados. Excelente para uso casual y deportivo.",
+    "descripcion": "Aroma fresco y vivaz que captura la esencia de cítricos cálidos. Con notas de mandarina pura, es ideal para la actividad y el movimiento. Un perfume dinámico que te acompaña durante todo el día.",
+    "recomendacion": "Perfecto para usar en días cálidos de primavera y verano. Ideal para deportes o actividades al aire libre. Excelente para uso casual y deportivo.",
     "dupe": "Similar a Versace Eros y Creed Aquamarine"
   },
   {
@@ -41,13 +86,13 @@
     "clima": "Templado, Calor",
     "momento": "Día, Noche",
     "descripcion": "Un perfume deliciosamente gourmand que combina notas de vainilla premium con toques dulces y adictivos. Perfecto para quien busca un aroma cálido y envolvente que permanece en la piel durante horas.",
-    "recomendacion": "Úsalo en cualquier momento del año, tanto de día como de noche. Es perfecto para momentos casuales y también para salir a cenar. Compatible con clima templado y cálido. Un perfume versátil que acompaña todos tus días.",
-    "dupe": "Similar a Prada Candy y Yves Saint Laurent La Nuit de L'Homme Casual"
+    "recomendacion": "Úsalo en cualquier momento del año, tanto de día como de noche. Es perfecto para momentos casuales y también para salir a cenar. Compatible con clima templado y cálido.",
+    "dupe": "Similar a Prada Candy"
   },
   {
     "nombre": "ODYSSEY LIMONI (HOMBRE)",
     "precio": 62400,
-    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/1766080688279-89080.png",
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/PsTKX_lRD6K-qsWZ1jLl6.png",
     "disponible": true,
     "genero": "Masculino",
     "notas": "Cítrico, Limón, Aromático",
@@ -55,14 +100,14 @@
     "estacion": "Verano, Primavera",
     "clima": "Calor",
     "momento": "Día",
-    "descripcion": "Un aroma limpio y refrescante con notas prominentes de limón auténtico. Su carácter aromático lo hace ideal para quienes disfrutan de perfumes frescos y despiertos que transmiten vitalidad.",
-    "recomendacion": "Ideal para verano y primavera, especialmente en días calurosos. Úsalo durante el día, particularmente en actividades deportivas o casuales. Perfecto para climas cálidos donde necesitas un aroma que refesque.",
-    "dupe": "Similar a Acqua di Gioia de Giorgio Armani y Colonia de Acqua di Parma"
+    "descripcion": "Un aroma limpio y refrescante con notas prominentes de limón auténtico. Su carácter aromático lo hace ideal para quienes disfrutan de perfumes frescos que transmiten vitalidad.",
+    "recomendacion": "Ideal para verano y primavera, especialmente en días calurosos. Úsalo durante actividades deportivas o casuales. Perfecto para climas cálidos.",
+    "dupe": "Similar a Acqua di Parma Colonia"
   },
   {
     "nombre": "MANDARIN SKY ELIXIR (MASCULINO)",
     "precio": 73600,
-    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/Hvn-i38YnhZQteeCOm9UE.png",
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/05njjWDmHQBlm6XkbVJnt.png",
     "disponible": true,
     "genero": "Masculino",
     "notas": "Cítrico, Mandarina, Especiado",
@@ -71,8 +116,8 @@
     "clima": "Calor, Templado",
     "momento": "Día, Noche",
     "descripcion": "El toque especiado en este elixir de mandarina lo eleva a un nivel sofisticado. Combina la luminosidad de los cítricos con notas especiadas que le dan profundidad y carácter.",
-    "recomendacion": "Úsalo en primavera y verano, tanto de día como de noche. Es perfecto para ocasiones elegantes como cenas o eventos especiales. Compatible con temperaturas cálidas y templadas.",
-    "dupe": "Similar a Acqua di Gucci y Hermès Eau de Gentiane Blanche"
+    "recomendacion": "Úsalo en primavera y verano, tanto de día como de noche. Perfecto para ocasiones elegantes como cenas o eventos especiales.",
+    "dupe": "Similar a Acqua di Gucci"
   },
   {
     "nombre": "ODYSSEY HOMME WHITE EDITION (MASCULINO)",
@@ -80,13 +125,13 @@
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/CFiAtcC54tbyvGvLNzWyJ.png",
     "disponible": true,
     "genero": "Masculino",
-    "notas": "Fresco, Acuático, Blanco",
+    "notas": "Fresco, Acuático, Limpio",
     "ocasion": "Casual, Trabajo",
     "estacion": "Verano, Primavera",
     "clima": "Calor, Templado",
     "momento": "Día",
     "descripcion": "Una edición blanca y luminosa que enfatiza notas acuáticas limpias. Es el perfume ideal para oficina, donde necesitas un aroma sutil, profesional y refrescante.",
-    "recomendacion": "Perfecto de día, especialmente en contextos laborales. Úsalo en primavera y verano para disfrutar al máximo de sus notas acuáticas en climas cálidos. Es discreto pero envolvente.",
+    "recomendacion": "Perfecto de día, especialmente en contextos laborales. Úsalo en primavera y verano para disfrutar al máximo de sus notas acuáticas. Es discreto pero envolvente.",
     "dupe": "Similar a Bleu de Chanel y Nautica Voyage"
   },
   {
@@ -101,8 +146,8 @@
     "clima": "Calor",
     "momento": "Día",
     "descripcion": "Inspirándose en la brisa marina, este perfume acuático transporta notas frescas del océano. Ideal para quienes aman los aromas refrescantes que evocan playa y movimiento.",
-    "recomendacion": "El aroma perfecto para días calurosos de verano y primavera. Úsalo durante el día, especialmente en actividades deportivas o al aire libre. Es deportivo y refrescante.",
-    "dupe": "Similar a Acqua di Gio de Giorgio Armani y Heeley Sel Marin"
+    "recomendacion": "El aroma perfecto para días calurosos de verano y primavera. Úsalo durante actividades deportivas o al aire libre. Es deportivo y refrescante.",
+    "dupe": "Similar a Acqua di Gio de Giorgio Armani"
   },
   {
     "nombre": "SUBLIME LATTAFA (UNISEX)",
@@ -116,8 +161,8 @@
     "clima": "Frío, Templado",
     "momento": "Noche",
     "descripcion": "Un oriental envolvente con toques ambarinos que transmiten calidez y sofisticación. Sus notas profundas lo hacen irresistible para noches especiales donde quieres brillar.",
-    "recomendacion": "Ideal para ocasiones elegantes y noches de gala. Úsalo en otoño e invierno, especialmente en climas fríos o templados. Es un perfume de noche que te acompaña en momentos memorables.",
-    "dupe": "Similar a Hypnotic Poison de Christian Dior y Carolina Herrera Very Good Girl"
+    "recomendacion": "Ideal para ocasiones elegantes y noches de gala. Úsalo en otoño e invierno, especialmente en climas fríos o templados.",
+    "dupe": "Similar a Hypnotic Poison de Christian Dior"
   },
   {
     "nombre": "NOBLE BLUSH (FEMENINO)",
@@ -131,8 +176,8 @@
     "clima": "Templado, Calor",
     "momento": "Noche",
     "descripcion": "Un perfume romántico centrado en la belleza de la rosa clásica. Notas florales elegantes que evocan romance y feminidad, perfectas para noches especiales.",
-    "recomendacion": "Úsalo en noches elegantes de primavera y verano. Es ideal para cenas románticas, eventos refinados o cuando quieres sentirte femenina y sofisticada. Compatible con climas templados y cálidos.",
-    "dupe": "Similar a Rose Absolue de Burberry y Lancôme La Vie Est Belle Soleil en Rose"
+    "recomendacion": "Úsalo en noches elegantes de primavera y verano. Ideal para cenas románticas o eventos refinados.",
+    "dupe": "Similar a Lancôme La Vie Est Belle Soleil en Rose"
   },
   {
     "nombre": "BADE AL OUD (MASCULINO)",
@@ -145,9 +190,9 @@
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
     "momento": "Noche",
-    "descripcion": "Un oud auténtico y poderoso con notas amaderadas y especiadas. Este perfume arabesco representa la esencia del lujo oriental, pensado para hombres que demandan intensidad y profundidad.",
-    "recomendacion": "Perfecto para noches especiales, eventos elegantes y ocasiones formales. Úsalo en otoño e invierno, en climas fríos o templados. Es un perfume de noche que marca presencia.",
-    "dupe": "Similar a Oud for Greatness de Lattafa y Dirham Oud de Ibe Fadi"
+    "descripcion": "Bade al Oud es una oda al oud árabe más auténtico. Potente, amaderado y profundo, es un perfume que comunica poder y sofisticación en cada pulverización.",
+    "recomendacion": "Perfecto para noches elegantes en otoño e invierno. Úsalo en ocasiones donde quieras impresionar con un aroma oriental profundo.",
+    "dupe": "Similar a Montale Intense Oud"
   },
   {
     "nombre": "AMETHYST (FEMENINO)",
@@ -155,14 +200,29 @@
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/uFpbkGjt9y9qQ2Jss5HMk.png",
     "disponible": true,
     "genero": "Femenino",
-    "notas": "Floral, Frutal, Fresco",
-    "ocasion": "Casual, Salir",
+    "notas": "Floral, Frutal, Dulce",
+    "ocasion": "Elegante, Salir",
     "estacion": "Primavera, Verano",
-    "clima": "Calor, Templado",
-    "momento": "Día, Noche",
-    "descripcion": "Un perfume frutal y floral que combina notas frescas con elegancia. Amethyst es versátil, pudiendo usarse tanto de día como de noche con igual belleza.",
-    "recomendacion": "Ideal para primavera y verano, en cualquier momento del día o noche. Es perfecto para ocasiones casuales o para salir. Compatible con climas cálidos y templados. Un aroma versátil y alegre.",
-    "dupe": "Similar a Daisy de Marc Jacobs y Alien de Thierry Mugler versión frutal"
+    "clima": "Templado, Calor",
+    "momento": "Noche",
+    "descripcion": "Amethyst es feminidad cristalizada. Sus notas florales y frutales crean una fragancia vibrante y romántica, perfecta para quien busca un aroma sofisticado y memorable.",
+    "recomendacion": "Ideal para noches elegantes en primavera y verano. Úsalo en ocasiones especiales para resaltar tu lado femenino.",
+    "dupe": "Similar a Guerlain La Petite Robe Noire"
+  },
+  {
+    "nombre": "FAKHAR BLACK (MASCULINO)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/DWsSBf70gwt3t57jjOfai.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Especiado, Amaderado, Oscuro",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Fakhar Black es poder y misterio. Con notas especiadas y oscuras sobre una base amaderada intensa, es el aroma para hombres que no pasan desapercibidos.",
+    "recomendacion": "Perfecto para noches de invierno y otoño. Úsalo en salidas nocturnas o eventos formales donde quieras generar impacto.",
+    "dupe": "Similar a Dior Sauvage Elixir"
   },
   {
     "nombre": "FAKHAR GOLD (UNISEX)",
@@ -170,14 +230,14 @@
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/tgoFPuCHMWRAc8RHuB8BW.png",
     "disponible": true,
     "genero": "Unisex",
-    "notas": "Oriental, Dorado, Ambarino",
+    "notas": "Oriental, Dorado, Cálido",
     "ocasion": "Elegante, Salir",
-    "estacion": "Otoño, Invierno",
-    "clima": "Templado, Frío",
+    "estacion": "Todo el año",
+    "clima": "Templado, Calor",
     "momento": "Noche",
-    "descripcion": "Un oriental opulento con halo dorado que evoca lujo y sofisticación. Sus notas ambarinas crean una nube envolvente que te envuelve en elegancia.",
-    "recomendacion": "Perfecto para ocasiones elegantes en otoño e invierno. Úsalo de noche, especialmente en climas templados o fríos. Es un aroma que comunica refinamiento y estatus.",
-    "dupe": "Similar a Lost Cherry de Tom Ford y Givenchy Amarige"
+    "descripcion": "Fakhar Gold brilla con notas orientales cálidas y un acabado dorado envolvente. Elegante y versátil, es un aroma unisex de lujo accesible para cualquier ocasión especial.",
+    "recomendacion": "Versátil durante todo el año. Úsalo de noche en ocasiones elegantes. Compatible con climas templados y cálidos.",
+    "dupe": "Similar a Paco Rabanne 1 Million"
   },
   {
     "nombre": "FAKHAR ROSE (MUJER)",
@@ -185,14 +245,29 @@
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/FEKyonaUVY_VP-yKeaWoo.png",
     "disponible": true,
     "genero": "Femenino",
-    "notas": "Floral, Rosa, Romántico",
+    "notas": "Floral, Rosa, Femenino",
     "ocasion": "Elegante, Salir",
     "estacion": "Primavera, Verano",
     "clima": "Templado, Calor",
+    "momento": "Día, Noche",
+    "descripcion": "Fakhar Rose es un homenaje a la rosa en toda su esplendor. Floral y femenino, con una elegancia atemporal que funciona tanto de día como de noche.",
+    "recomendacion": "Ideal para primavera y verano. Úsalo en cualquier ocasión donde quieras sentirte elegante y femenina.",
+    "dupe": "Similar a YSL Mon Paris Floral"
+  },
+  {
+    "nombre": "ASAD ELIXIR (MASCULINO)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/Qm6yOokKogXFmvhV2P3FR.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Oriental, Especiado, Intenso",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
     "momento": "Noche",
-    "descripcion": "Fakhar Rose es la expresión del romance floral. Con notas de rosa domínante y acentos románticos, es un aroma que hace sentir especial a quien lo lleva.",
-    "recomendacion": "Ideal para noches románticas en primavera y verano. Úsalo en ocasiones elegantes donde quieras sentirte femenina. Compatible con climas templados y cálidos. Un aroma de gala inigualable.",
-    "dupe": "Similar a Lancôme La Vie Est Belle y Prada Candy L'Eau"
+    "descripcion": "Asad Elixir es la versión concentrada y más intensa del Asad. Con especias orientales profundas y una base cálida y duradera, es un perfume de carácter inconfundible.",
+    "recomendacion": "Perfecto para noches elegantes en otoño e invierno. Úsalo cuando quieras un aroma que permanezca toda la noche.",
+    "dupe": "Similar a Dior Fahrenheit y Creed Viking"
   },
   {
     "nombre": "ASAD NEGRO (MASCULINO)",
@@ -200,14 +275,14 @@
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/WO6xtXp0DDBmeEdGA10C7.png",
     "disponible": true,
     "genero": "Masculino",
-    "notas": "Oud, Especiado, Amaderado",
+    "notas": "Amaderado, Oscuro, Especiado",
     "ocasion": "Elegante, Salir",
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
     "momento": "Noche",
-    "descripcion": "Asad Negro es poder puro. Combina oud oscuro con notas especiadas y amaderadas que crean un aroma intenso y sofisticado. Perfecto para el hombre que quiere dejar huella.",
-    "recomendacion": "Ideal para ocasiones elegantes y formales en otoño e invierno. Úsalo de noche, especialmente en climas fríos. Es un perfume que marca presencia y transmite autoridad.",
-    "dupe": "Similar a Oud Perfume de Creed y Rakíy de Asad para Hommes"
+    "descripcion": "Asad Negro es misterio masculino. Con notas oscuras amaderadas y especiadas, transmite una masculinidad profunda y sofisticada que se intensifica con el calor corporal.",
+    "recomendacion": "Ideal para noches de invierno y otoño. Úsalo en salidas donde quieras proyectar confianza y elegancia.",
+    "dupe": "Similar a Givenchy Gentleman Reserve Privée"
   },
   {
     "nombre": "ASAD ZANZIBAR (MASCULINO)",
@@ -215,14 +290,29 @@
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/H-F1rTNmeaHvDXdzhUPUN.png",
     "disponible": true,
     "genero": "Masculino",
-    "notas": "Especiado, Fresco, Exótico",
-    "ocasion": "Elegant, Salir",
+    "notas": "Especiado, Tropical, Amaderado",
+    "ocasion": "Casual, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Calor, Templado",
+    "momento": "Día, Noche",
+    "descripcion": "Asad Zanzibar evoca las especias y aromas exóticos de la isla africana. Una fusión única de lo tropical con lo especiado que resulta irresistiblemente versátil.",
+    "recomendacion": "Versátil para primavera y verano. Úsalo de día o noche, en momentos casuales o para salir. Compatible con climas cálidos.",
+    "dupe": "Similar a Tom Ford Velvet Orchid"
+  },
+  {
+    "nombre": "ASAD BOURBON (MASCULINO)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/2vXNsF3ZRNxAu0iI05X-L.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Amaderado, Bourbon, Especiado",
+    "ocasion": "Elegante, Casual",
     "estacion": "Otoño, Invierno",
-    "clima": "Templado, Frío",
+    "clima": "Frío, Templado",
     "momento": "Noche",
-    "descripcion": "Asad Zanzibar captura la esencia exótica de las especias ricas. Con su carácter especiado y notas frescas, es un aroma que evoca viajes y aventura.",
-    "recomendacion": "Perfecto para otoño e invierno en ocasiones elegantes. Úsalo de noche, especialmente en climas templados o fríos. Es un aroma que transmite misterio y sofisticación.",
-    "dupe": "Similar a Spice Bomb de Viktor & Rolf y Hypnotic Poison de Dior hombre"
+    "descripcion": "Asad Bourbon combina la calidez del bourbon con notas amaderadas y especiadas. Un aroma sofisticado y envolvente que evoca veladas íntimas junto al fuego.",
+    "recomendacion": "Ideal para noches de otoño e invierno. Úsalo en reuniones elegantes o cenas íntimas. Compatible con climas fríos.",
+    "dupe": "Similar a Hermès Bel Ami"
   },
   {
     "nombre": "YARA ROSA (FEMENINO)",
@@ -235,9 +325,9 @@
     "estacion": "Primavera, Verano",
     "clima": "Templado, Calor",
     "momento": "Noche",
-    "descripcion": "Yara Rosa es elegancia pura. Con notas florales de rosa auténtica, crea una atmósfera romántica y sofisticada alrededor de quien lo lleva.",
-    "recomendacion": "Ideal para noches de gala en primavera y verano. Úsalo en ocasiones elegantes para resaltar tu lado femenino. Compatible con climas templados y cálidos. Un aroma irresistible.",
-    "dupe": "Similar a Lancôme La Vie Est Belle Soleil Cristal y Guerlain La Petite Robe Noire"
+    "descripcion": "Yara Rosa es romance floral en estado puro. Sus notas de rosa suave y envolvente crean un aura femenina y delicada que enamora en cualquier ocasión.",
+    "recomendacion": "Ideal para noches de gala en primavera y verano. Úsalo en ocasiones elegantes para resaltar tu lado femenino.",
+    "dupe": "Similar a Lancôme La Vie Est Belle Soleil Cristal"
   },
   {
     "nombre": "YARA ELIXIR (FEMENINO)",
@@ -251,8 +341,8 @@
     "clima": "Templado, Frío",
     "momento": "Noche",
     "descripcion": "Un elixir oriental y gourmand que seduce los sentidos. Dulce sin ser empalagoso, es un aroma que te acompaña durante toda la noche dejando un efecto duradero.",
-    "recomendacion": "Ideal para noches elegantes en cualquier época del año. Úsalo cuando quieras sentirte glamourosa y sofisticada. Compatible con climas templados y fríos. Un aroma hipnotizante.",
-    "dupe": "Similar a Black Opium de Yves Saint Laurent y Hypnotic Poison Dry Down de Dior"
+    "recomendacion": "Ideal para noches elegantes en cualquier época del año. Úsalo cuando quieras sentirte glamourosa y sofisticada.",
+    "dupe": "Similar a Black Opium de YSL"
   },
   {
     "nombre": "YARA CANDY (FEMENINO)",
@@ -266,8 +356,8 @@
     "clima": "Templado, Calor",
     "momento": "Día, Noche",
     "descripcion": "Yara Candy es dulzura envolvente. Con notas de vainilla y caramelo, crea una nube adictiva que permanece a tu alrededor durante horas. Ideal para quien ama los aromas gourmand.",
-    "recomendacion": "Versátil y adictivo, puedes usarlo en cualquier momento del año. Perfecto para día o noche, ocasiones casuales o para salir. Compatible con climas templados y cálidos.",
-    "dupe": "Similar a Prada Candy Sugar Pop y Lancôme Tresor Nude"
+    "recomendacion": "Versátil y adictivo, puedes usarlo en cualquier momento del año. Perfecto para día o noche, ocasiones casuales o para salir.",
+    "dupe": "Similar a Prada Candy Sugar Pop"
   },
   {
     "nombre": "YARA TOUS NARANJA (FEMENINO)",
@@ -281,8 +371,8 @@
     "clima": "Calor, Templado",
     "momento": "Día",
     "descripcion": "Yara Tous Naranja es energía pura. Con notas de naranja vibrante y tonos frescos, es el aroma perfecto para días activos y llenos de movimiento.",
-    "recomendacion": "Ideal para días cálidos de primavera y verano. Úsalo durante actividades deportivas o momentos casuales. Su carácter deportivo es perfecto para climas cálidos.",
-    "dupe": "Similar a Acqua di Parma Blu Mediterraneo y Mod Bleu para Hommes"
+    "recomendacion": "Ideal para días cálidos de primavera y verano. Úsalo durante actividades deportivas o momentos casuales.",
+    "dupe": "Similar a Acqua di Parma Blu Mediterraneo"
   },
   {
     "nombre": "YARA MOI BLANCO (UNISEX)",
@@ -290,14 +380,14 @@
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/5qDQqiG0j3l5-kg2cePyX.png",
     "disponible": true,
     "genero": "Unisex",
-    "notas": "Fresco, Blanco, Limpio",
+    "notas": "Fresco, Limpio, Blanco",
     "ocasion": "Casual, Trabajo",
     "estacion": "Verano, Primavera",
     "clima": "Calor, Templado",
     "momento": "Día",
     "descripcion": "Yara Moi Blanco es pureza y limpieza. Sus notas blancas y frescas crean una sensación de frescura que dura todo el día. Perfecto para contextos laborales.",
-    "recomendacion": "Ideal para días de trabajo o momentos casuales en primavera y verano. Úsalo de día, especialmente en oficinas o ambientes profesionales. Compatible con climas cálidos.",
-    "dupe": "Similar a Hermes H24 y Givenchy Gentleman Casual"
+    "recomendacion": "Ideal para días de trabajo o momentos casuales en primavera y verano. Compatible con climas cálidos.",
+    "dupe": "Similar a Hermès H24"
   },
   {
     "nombre": "KHAMRAH LATTAFA (UNISEX)",
@@ -311,8 +401,8 @@
     "clima": "Frío, Templado",
     "momento": "Noche",
     "descripcion": "Khamrah Lattafa es un oriental cálido y envolvente. Sus notas ambarinas crean una presencia sofisticada que perdura durante toda la noche.",
-    "recomendacion": "Perfecto para n noches elegantes en otoño e invierno. Úsalo en ocasiones especiales y eventos de gala. Compatible con climas fríos y templados. Un aroma de lujo.",
-    "dupe": "Similar a Amber Oud de Tom Ford y Khamrah de Lattafa"
+    "recomendacion": "Perfecto para noches elegantes en otoño e invierno. Compatible con climas fríos y templados. Un aroma de lujo.",
+    "dupe": "Similar a Amber Oud de Al Haramain"
   },
   {
     "nombre": "KHAMRAH QAHWA (UNISEX)",
@@ -326,8 +416,8 @@
     "clima": "Frío, Templado",
     "momento": "Día, Noche",
     "descripcion": "Khamrah Qahwa evoca el aroma de café recién hecho con toques especiados orientales. Es un perfume que puede usarse en cualquier momento, transmitiendo calidez y sofisticación.",
-    "recomendacion": "Versátil, puedes usarlo de día o noche en otoño e invierno. Es perfecto tanto para momentos casuales como elegantes. Compatible con climas fríos y templados. Un aroma envolvente.",
-    "dupe": "Similar a Prada L'Homme Intense y Hermano Cardamom de Fragrant Leather"
+    "recomendacion": "Versátil, puedes usarlo de día o noche en otoño e invierno. Perfecto tanto para momentos casuales como elegantes.",
+    "dupe": "Similar a Prada L'Homme Intense"
   },
   {
     "nombre": "HAWAS FIRE (MASCULINO)",
@@ -340,9 +430,9 @@
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
     "momento": "Noche",
-    "descripcion": "Hawas Fire es intensidad y poder. Con notas especiadas de fuego y madera, es un perfume para hombres que quieren un aroma que marque presencia e intimide.",
-    "recomendacion": "Perfecto para noches elegantes y ocasiones especiales en otoño e invierno. Úsalo en climas fríos o templados. Es un aroma nocturno que comunica confianza.",
-    "dupe": "Similar a Spice Bomb de Viktor & Rolf y Givenchy Gentleman Reserve Privée"
+    "descripcion": "Hawas Fire es intensidad y poder. Con notas especiadas de fuego y madera, es un perfume para hombres que quieren un aroma que marque presencia.",
+    "recomendacion": "Perfecto para noches elegantes y ocasiones especiales en otoño e invierno. Úsalo en climas fríos o templados.",
+    "dupe": "Similar a Spice Bomb de Viktor & Rolf"
   },
   {
     "nombre": "HAWAS TROPICAL (MASCULINO)",
@@ -356,8 +446,8 @@
     "clima": "Calor, Templado",
     "momento": "Día, Noche",
     "descripcion": "Hawas Tropical es escape a un paraíso. Con notas frutales tropicales y tonos frescos, transporta a playas exuberantes. Un perfume versátil para disfrutar en cualquier momento.",
-    "recomendacion": "Ideal para primavera y verano, tanto de día como de noche. Perfecto para lugares cálidos y ocasiones tanto casuales como para salir. Compatible con climas cálidos y templados.",
-    "dupe": "Similar a Acqua di Gio Absolu de Giorgio Armani y Creed Virgin Island Water"
+    "recomendacion": "Ideal para primavera y verano, tanto de día como de noche. Compatible con climas cálidos y templados.",
+    "dupe": "Similar a Acqua di Gio Absolu de Giorgio Armani"
   },
   {
     "nombre": "HAWAS ICE (MASCULINO)",
@@ -370,8 +460,353 @@
     "estacion": "Verano, Primavera",
     "clima": "Calor",
     "momento": "Día",
-    "descripcion": "Hawas Ice es refrescante extremo. Con notas aquáticas y tonos helados, es el aroma perfecto para días abrasadores donde necesitas sentir el frescor.",
-    "recomendacion": "Ideal para días muy calurosos de verano y primavera. Úsalo durante actividades deportivas o cuando necesites refrescarte. Perfecto para climas cálidos.",
-    "dupe": "Similar a Acqua di Gio de Giorgio Armani y CK One de Calvin Klein"
+    "descripcion": "Hawas Ice es refrescante extremo. Con notas acuáticas y tonos helados, es el aroma perfecto para días abrasadores donde necesitas sentir el frescor.",
+    "recomendacion": "Ideal para días muy calurosos de verano y primavera. Úsalo durante actividades deportivas o cuando necesites refrescarte.",
+    "dupe": "Similar a Acqua di Gio de Giorgio Armani y CK One"
+  },
+  {
+    "nombre": "HAWAS FOR HIM (MASCULINO)",
+    "precio": 73600,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/o5ylTzKrs8nwF0lkkNMuT.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Acuático, Aromático, Masculino",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Primavera, Verano",
+    "clima": "Calor, Templado",
+    "momento": "Día",
+    "descripcion": "Hawas For Him es el clásico masculino renovado. Notas acuáticas y aromáticas que comunican frescura, energía y confianza en cualquier momento del día.",
+    "recomendacion": "Perfecto para el uso diario en primavera y verano. Ideal para el trabajo o actividades casuales en climas cálidos.",
+    "dupe": "Similar a Versace Pour Homme y Davidoff Cool Water"
+  },
+  {
+    "nombre": "HAWAS PINK (MUJER)",
+    "precio": 73600,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/51WgIyBdsZqdInQ5imtDj.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Floral, Dulce, Femenino",
+    "ocasion": "Casual, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Día, Noche",
+    "descripcion": "Hawas Pink es feminidad expresada en rosa. Dulce y floral, con una personalidad alegre y desenfadada que se adapta a cualquier momento del día.",
+    "recomendacion": "Versátil para primavera y verano. Úsalo de día o noche en momentos casuales o para salir. Compatible con climas cálidos.",
+    "dupe": "Similar a Lancôme La Vie Est Belle en Rose"
+  },
+  {
+    "nombre": "9AM WHITE (FEMENINO)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/ID7y8aFqWxd7joq6UF8ft.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Floral, Fresco, Limpio",
+    "ocasion": "Trabajo, Casual",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Día",
+    "descripcion": "9AM White es el aroma de la mañana perfecta. Floral y fresco, con una limpieza sofisticada que acompaña cualquier día de trabajo o actividad diurna con elegancia.",
+    "recomendacion": "Ideal para el trabajo o momentos casuales diurnos en primavera y verano. Compatible con climas cálidos y templados.",
+    "dupe": "Similar a Chloé Eau de Parfum"
+  },
+  {
+    "nombre": "9 PM AFNAN (MASCULINO)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/Wk7I-beZZX2rx8hSemqGq.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Oriental, Especiado, Nocturno",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "9 PM Afnan es la fragancia de la noche. Oriental y especiada, intensa y seductora, fue creada para brillar cuando el sol se pone y la noche cobra vida.",
+    "recomendacion": "Perfecto para salidas nocturnas en otoño e invierno. Úsalo en climas fríos cuando quieras causar impresión.",
+    "dupe": "Similar a Paco Rabanne 1 Million Parfum"
+  },
+  {
+    "nombre": "9 AM DIVE (UNISEX)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/QEqr8x02fUrgTpOFi4V63.png",
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Acuático, Fresco, Marino",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor",
+    "momento": "Día",
+    "descripcion": "9 AM Dive es inmersión total en frescura marina. Acuático y vibrante, evoca las primeras horas del día junto al mar con toda su energía y claridad.",
+    "recomendacion": "Ideal para días de verano activos. Úsalo en deportes acuáticos, playa o cualquier actividad al aire libre en climas cálidos.",
+    "dupe": "Similar a Davidoff Cool Water y Issey Miyake L'Eau d'Issey"
+  },
+  {
+    "nombre": "9 PM REBEL (MASCULINO)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/bhM31haBRSsrU5IW01ocR.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Especiado, Rebelde, Intenso",
+    "ocasion": "Salir, Elegante",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "9 PM Rebel rompe las reglas. Con un carácter especiado e intenso, es el aroma para quienes no siguen tendencias sino que las crean. Magnético e irresistible.",
+    "recomendacion": "Perfecto para noches de otoño e invierno. Úsalo en salidas nocturnas donde quieras destacar por sobre el resto.",
+    "dupe": "Similar a Viktor & Rolf Spicebomb Infrared"
+  },
+  {
+    "nombre": "CLUB DE NUIT URBAN MAN (MASCULINO)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/JWp0td-OwCiNVbs5bGqFQ.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Amaderado, Cítrico, Urbano",
+    "ocasion": "Casual, Trabajo",
+    "estacion": "Todo el año",
+    "clima": "Templado",
+    "momento": "Día",
+    "descripcion": "Club de Nuit Urban Man es el perfume del hombre moderno. Amaderado y cítrico, con un carácter urbano y sofisticado que funciona en cualquier contexto profesional o casual.",
+    "recomendacion": "Versátil durante todo el año. Ideal para el trabajo o momentos casuales. Compatible con cualquier clima templado.",
+    "dupe": "Similar a Creed Aventus"
+  },
+  {
+    "nombre": "CLUB DE NUIT SILLAGE (UNISEX)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/aVRotQ-97gIvTamgEetPZ.png",
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Amaderado, Frutal, Sofisticado",
+    "ocasion": "Elegante, Trabajo",
+    "estacion": "Todo el año",
+    "clima": "Templado",
+    "momento": "Día, Noche",
+    "descripcion": "Club de Nuit Sillage deja una estela inconfundible. Frutal y amaderado, sofisticado y elegante, este unisex fue diseñado para quienes quieren ser recordados.",
+    "recomendacion": "Versátil para cualquier ocasión y época. Úsalo de día en el trabajo o de noche en eventos elegantes.",
+    "dupe": "Similar a Creed Aventus for Her"
+  },
+  {
+    "nombre": "CLUB DE NUIT UNTOLD (FEMENINO)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/g5Uxp5NW2xLUWsFz9EK79.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Floral, Amaderado, Misterioso",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Club de Nuit Untold es la historia sin contar. Floral y amaderado, misterioso y sofisticado, es un perfume que invita a descubrir la mujer detrás del aroma.",
+    "recomendacion": "Ideal para noches elegantes en otoño e invierno. Úsalo en ocasiones especiales donde quieras transmitir sofisticación.",
+    "dupe": "Similar a YSL Black Opium"
+  },
+  {
+    "nombre": "CLUB DE NUIT MILESTONE (UNISEX)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/SZM-wl80dSS9Xa5_xZuM_.png",
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Cítrico, Amaderado, Fresco",
+    "ocasion": "Casual, Trabajo",
+    "estacion": "Todo el año",
+    "clima": "Templado, Calor",
+    "momento": "Día",
+    "descripcion": "Club de Nuit Milestone marca un hito. Fresco, cítrico y amaderado, es un unisex elegante que funciona perfectamente en el día a día sin perder sofisticación.",
+    "recomendacion": "Versátil para cualquier época del año. Ideal para el trabajo o momentos casuales durante el día.",
+    "dupe": "Similar a Creed Silver Mountain Water"
+  },
+  {
+    "nombre": "CLUB DE NUIT WOMAN (FEMENINO)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/qUfbRB24pWGflOZpWLZvP.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Frutal, Floral, Elegante",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Noche",
+    "descripcion": "Club de Nuit Woman es elegancia femenina en su máxima expresión. Frutal y floral, con una sofisticación atemporal que convierte cualquier salida en un evento memorable.",
+    "recomendacion": "Ideal para noches elegantes en primavera y verano. Úsalo en salidas o eventos donde quieras brillar.",
+    "dupe": "Similar a Creed Aventus for Her"
+  },
+  {
+    "nombre": "HAWAS MALIBU (MASCULINO)",
+    "precio": 73600,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/RcpgpEtY-BAy1SGc9b0Eb.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Frutal, Solar, Marino",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor",
+    "momento": "Día",
+    "descripcion": "Hawas Malibu es el surf, el sol y el mar en una botella. Frutal, solar y marino, es el aroma perfecto para el hombre activo que vive el verano al máximo.",
+    "recomendacion": "Perfecto para días de playa, surf o cualquier actividad al aire libre en verano. Compatible con climas cálidos.",
+    "dupe": "Similar a Armani Acqua di Gio Profondo"
+  },
+  {
+    "nombre": "ECLAIRE PISTACHO (FEMENINO)",
+    "precio": 73600,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/aaBK8LZPOhE1MFG5WgyrV.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Gourmet, Pistacho, Dulce",
+    "ocasion": "Casual, Salir",
+    "estacion": "Todo el año",
+    "clima": "Templado, Calor",
+    "momento": "Día, Noche",
+    "descripcion": "Eclaire Pistacho es una delicia gourmand única. Con notas de pistacho cremoso y matices dulces irresistibles, es un perfume adictivo que llama la atención de todos.",
+    "recomendacion": "Versátil durante todo el año. Úsalo de día o noche en momentos casuales o para salir. Un aroma diferente y memorable.",
+    "dupe": "Similar a Kayali Vanilla 28"
+  },
+  {
+    "nombre": "ECLAIRE LATAFFA (FEMENINO)",
+    "precio": 73600,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/o-LlFitjIb7D2P76xbKFF.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Dulce, Cremoso, Gourmet",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Todo el año",
+    "clima": "Templado",
+    "momento": "Noche",
+    "descripcion": "Eclaire Lataffa es sofisticación gourmand. Cremoso y dulce con profundidad, es un perfume femenino que equilibra lo indulgente con lo elegante de manera magistral.",
+    "recomendacion": "Ideal para noches elegantes durante todo el año. Úsalo en ocasiones especiales donde quieras un aroma memorable y sofisticado.",
+    "dupe": "Similar a Maison Margiela Replica By the Fireplace"
+  },
+  {
+    "nombre": "MOUSUF RAMADI (UNISEX)",
+    "precio": 62400,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/14C6YDReNzbIsmAI83OyD.png",
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Amaderado, Polvoriento, Sofisticado",
+    "ocasion": "Elegante, Trabajo",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Día, Noche",
+    "descripcion": "Mousuf Ramadi evoca la arena del desierto y la madera envejecida. Un unisex polvoriento y amaderado de gran sofisticación para quienes aprecian los aromas únicos.",
+    "recomendacion": "Ideal para otoño e invierno, tanto de día en el trabajo como de noche. Compatible con climas fríos y templados.",
+    "dupe": "Similar a Serge Lutens Clair de Musc"
+  },
+  {
+    "nombre": "LIQUID BRUN (MASCULINO)",
+    "precio": 88000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/DaX_CI6_CK_ZaWejSqmdO.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Chocolate, Especiado, Intenso",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Liquid Brun es una experiencia olfativa única. Con notas de chocolate oscuro y especias intensas, crea un aroma masculino que es tan irresistible como su nombre sugiere.",
+    "recomendacion": "Perfecto para noches especiales en otoño e invierno. Úsalo en ocasiones donde quieras impresionar con algo fuera de lo común.",
+    "dupe": "Similar a Thierry Mugler A*Men"
+  },
+  {
+    "nombre": "VULCAN FEU (MASCULINO)",
+    "precio": 73600,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/O4g3vdNIE2UlYJkLj-AVD.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Especiado, Cálido, Intenso",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Vulcan Feu es fuego volcánico en una botella. Especiado, cálido e intenso, es un perfume para hombres que buscan un aroma potente y dramático que deja huella.",
+    "recomendacion": "Ideal para noches frías de otoño e invierno. Úsalo en salidas nocturnas donde quieras ser el centro de atención.",
+    "dupe": "Similar a Viktor & Rolf Spicebomb Extreme"
+  },
+  {
+    "nombre": "VULCAN SABLE FRENCH AVENUE (MASCULINO)",
+    "precio": 73600,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/NlfrocijapqrflrhfeT4B.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Amaderado, Arena, Sofisticado",
+    "ocasion": "Elegante, Trabajo",
+    "estacion": "Todo el año",
+    "clima": "Templado",
+    "momento": "Día, Noche",
+    "descripcion": "Vulcan Sable French Avenue evoca la elegancia francesa con un toque arenoso y amaderado. Sofisticado y versátil, es un perfume para el hombre que valora el estilo.",
+    "recomendacion": "Versátil durante todo el año. Úsalo tanto en el trabajo como en salidas nocturnas. Compatible con climas templados.",
+    "dupe": "Similar a Hermès Terre d'Hermès"
+  },
+  {
+    "nombre": "VULCAN BAIE FRENCH AVENUE (UNISEX)",
+    "precio": 73600,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/cqVbcCdW5eheeT9gVYFJA.png",
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Marino, Fresco, Sofisticado",
+    "ocasion": "Casual, Elegante",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Día",
+    "descripcion": "Vulcan Baie French Avenue es la bahía francesa: sofisticada, fresca y marina. Un unisex refinado que combina lo acuático con la elegancia parisina.",
+    "recomendacion": "Perfecto para días de primavera y verano. Úsalo en momentos casuales o elegantes durante el día. Compatible con climas templados.",
+    "dupe": "Similar a Chanel Bleu de Chanel Eau de Toilette"
+  },
+  {
+    "nombre": "AMBER OUD GOLD EDITION (MASCULINO)",
+    "precio": 88000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/e590rhKnRbblcrretyNpZ.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Oud, Ambarino, Dorado",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Amber Oud Gold Edition es lujo oriental puro. Oud profundo sobre una base ambarinada dorada que irradia sofisticación y poder. Para ocasiones que merecen lo mejor.",
+    "recomendacion": "Ideal para las noches más especiales del año. Úsalo en eventos de gala o cenas formales en otoño e invierno.",
+    "dupe": "Similar a Tom Ford Oud Minerale"
+  },
+  {
+    "nombre": "AMBER OUD AQCUA DUBAI (UNISEX)",
+    "precio": 88000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/mw0d1ZX1v9RuN5B6MerDT.png",
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Oud, Acuático, Ambarino",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Todo el año",
+    "clima": "Templado, Calor",
+    "momento": "Día, Noche",
+    "descripcion": "Amber Oud Acqua Dubai fusiona el oud árabe con frescura acuática de manera magistral. El resultado es un unisex de lujo con carácter global y atractivo universal.",
+    "recomendacion": "Versátil durante todo el año. Úsalo de día o noche en ocasiones elegantes. Perfecto en cualquier clima.",
+    "dupe": "Similar a Acqua di Parma Oud"
+  },
+  {
+    "nombre": "BHARARA KING (UNISEX)",
+    "precio": 88000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/wHHHNZWz_Q4Y53CqmhMke.png",
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Oriental, Especiado, Regio",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Bharara King es realeza en cada gota. Oriental y especiado, con una majestuosidad que pocas fragancias logran. Para quien quiere sentirse rey.",
+    "recomendacion": "Perfecto para las noches más importantes. Úsalo en eventos formales o salidas elegantes en otoño e invierno.",
+    "dupe": "Similar a Clive Christian No. 1"
+  },
+  {
+    "nombre": "BHARARA KING GOLD EDITION (UNISEX)",
+    "precio": 88000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/hwfGGpCtvn6tUr2VK0CS4.png",
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Oriental, Dorado, Lujoso",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Bharara King Gold Edition lleva la realeza al siguiente nivel. Oriental y dorado, más intenso y lujoso que el original. La fragancia definitiva para quienes no aceptan nada menos que lo mejor.",
+    "recomendacion": "Reservado para las ocasiones más especiales. Úsalo en galas, eventos de lujo o noches importantes en otoño e invierno.",
+    "dupe": "Similar a Amouage Interlude Man"
   }
 ]

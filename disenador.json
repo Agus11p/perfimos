@@ -2,7 +2,7 @@
   {
     "nombre": "Jean Paul Gaultier Le Beau 125ml (Masculino)",
     "precio": 88000,
-    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/c55Su3dED6GBv61xuoBPE.png",
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/Hn-a23m86EPLlMdimhYOi.png",
     "disponible": true,
     "genero": "Masculino",
     "notas": "Fresco, Aromático, Especiado",
@@ -10,8 +10,22 @@
     "estacion": "Primavera, Verano",
     "clima": "Calor, Templado",
     "momento": "Día",
-    "descripcion": "Un perfume fresco y aromático con tonos especiados. Le Beau es el equilibrio perfecto entre masculinidad y sofisticación, pensado para hombres modernos que viven con pasión.",
+    "descripcion": "Le Beau es el equilibrio perfecto entre masculinidad y sofisticación. Fresco y aromático con un toque especiado que lo hace único. Un perfume pensado para hombres modernos que viven con pasión.",
     "recomendacion": "Ideal para trabajo y momentos casuales en primavera y verano. Úsalo de día en climas cálidos. Es un aroma profesional que inspira confianza."
+  },
+  {
+    "nombre": "Xerjoff Erba Pura 100ml (Unisex)",
+    "precio": 88000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/-XjZ-J-4INqwuAOHh3mwx.png",
+    "disponible": true,
+    "genero": "Unisex",
+    "notas": "Herbáceo, Limpio, Fresco",
+    "ocasion": "Casual, Trabajo",
+    "estacion": "Primavera, Verano",
+    "clima": "Calor, Templado",
+    "momento": "Día",
+    "descripcion": "Xerjoff Erba Pura es pureza extrema. Con notas herbáceas y limpias, es el aroma perfecto para quienes aman lo natural y lo fresco. Una fragancia minimalista de alta gama.",
+    "recomendacion": "Ideal para días de trabajo en primavera y verano. Compatible con climas cálidos. Un aroma minimalista y refrescante."
   },
   {
     "nombre": "Jean Paul Gaultier Divine 125ml (Femenino)",
@@ -52,22 +66,8 @@
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
     "momento": "Noche",
-    "descripcion": "Azzaro Wanted Elixir es intensidad refinada. Con notas especiadas y calidez amaderada, es un perfume seductor que evoca mysterio y poder.",
+    "descripcion": "Azzaro Wanted Elixir es intensidad refinada. Con notas especiadas y calidez amaderada, es un perfume seductor que evoca misterio y poder en cada aplicación.",
     "recomendacion": "Ideal para noches especiales en otoño e invierno. Úsalo en ocasiones donde quieras impresionar. Compatible con climas fríos y templados."
-  },
-  {
-    "nombre": "Azzaro Wanted Parfum 100ml (Masculino)",
-    "precio": 88000,
-    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/JYwh8WKiMd095m4ASHoYK.png",
-    "disponible": true,
-    "genero": "Masculino",
-    "notas": "Especiado, Amaderado, Sensual",
-    "ocasion": "Elegante, Salir",
-    "estacion": "Otoño, Invierno",
-    "clima": "Frío, Templado",
-    "momento": "Noche",
-    "descripcion": "Azzaro Wanted Parfum es la esencia de la seduccin. Con especias y calidez amaderada, crea una nube sensual que perdura durante toda la noche.",
-    "recomendacion": "Perfecto para noches románticas en otoño e invierno. Úsalo en climas fríos o templados. Es un aroma que transmite confianza y atractivo."
   },
   {
     "nombre": "Xerjoff Erba Gold 100ml (Unisex)",
@@ -80,7 +80,7 @@
     "estacion": "Primavera, Verano",
     "clima": "Calor, Templado",
     "momento": "Día",
-    "descripcion": "Xerjoff Erba Gold es frescura herbacea elevada a arte. Combina notas florales limpias con un toque dorado que lo hace especial. Perfecto para el trabajo.",
+    "descripcion": "Xerjoff Erba Gold es frescura herbácea elevada a arte. Combina notas florales limpias con un toque dorado que lo hace especial. Perfecto para el trabajo y el día a día.",
     "recomendacion": "Ideal para días de trabajo en primavera y verano. Úsalo de día en oficinas o ambientes profesionales. Compatible con climas cálidos."
   },
   {
@@ -96,20 +96,6 @@
     "momento": "Día, Noche",
     "descripcion": "Xerjoff Soprano es elegancia expresada en una botella. Con tonos cítricos y florales, es un aroma sofisticado que funciona en cualquier contexto.",
     "recomendacion": "Versátil para primavera y verano. Úsalo de día o noche, en momentos casuales o elegantes. Compatible con climas templados y cálidos."
-  },
-  {
-    "nombre": "Spicebomb (Masculino)",
-    "precio": 88000,
-    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/2gfZxUA95sLWo_PJ_KdLY.png",
-    "disponible": true,
-    "genero": "Masculino",
-    "notas": "Picante, Especiado, Amaderado",
-    "ocasion": "Elegante, Salir",
-    "estacion": "Otoño, Invierno",
-    "clima": "Frío, Templado",
-    "momento": "Noche",
-    "descripcion": "Spicebomb es explosivo en los sentidos. Con notas picantes y amaderadas, es un aroma potente que comunica masculinidad y poder. No para los tímidos.",
-    "recomendacion": "Perfecto para noches de gala en otoño e invierno. Úsalo en climas fríos o templados. Es un aroma que marca presencia inevitablemente."
   },
   {
     "nombre": "212 Men Heroes (Masculino)",
@@ -136,14 +122,56 @@
     "estacion": "Otoño, Invierno",
     "clima": "Frío, Templado",
     "momento": "Noche",
-    "descripcion": "La Vie Est Belle celebra la belleza de la vida. Con notas orientales y dulces, es un aroma posit ivo que transmite alegría y optimismo en cada pulverización.",
+    "descripcion": "La Vie Est Belle celebra la belleza de la vida. Con notas orientales y dulces, es un aroma positivo que transmite alegría y optimismo en cada pulverización.",
     "recomendacion": "Perfecto para noches elegantes en otoño e invierno. Úsalo en ocasiones especiales. Compatible con climas fríos. Un aroma que eleva el ánimo."
+  },
+  {
+    "nombre": "One Million Paco Rabanne (Masculino)",
+    "precio": 120000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/xgB2oNoAT9hanq1lTETyI.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Oriental, Dulce, Gourmet",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "One Million es glamour puro. Un oriental dulce y adictivo que comunica éxito y sofisticación. Uno de los perfumes más reconocibles del mundo.",
+    "recomendacion": "Perfecto para noches de gala en otoño e invierno. Ideal para ocasiones especiales. Compatible con climas fríos. Un aroma de estatus."
+  },
+  {
+    "nombre": "Azzaro Wanted Parfum 100ml (Masculino)",
+    "precio": 88000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/JYwh8WKiMd095m4ASHoYK.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Especiado, Amaderado, Sensual",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Azzaro Wanted Parfum es la esencia de la seducción. Con especias y calidez amaderada, crea una nube sensual que perdura durante toda la noche.",
+    "recomendacion": "Perfecto para noches románticas en otoño e invierno. Úsalo en climas fríos o templados. Es un aroma que transmite confianza y atractivo."
+  },
+  {
+    "nombre": "Spicebomb (Masculino)",
+    "precio": 88000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/2gfZxUA95sLWo_PJ_KdLY.png",
+    "disponible": true,
+    "genero": "Masculino",
+    "notas": "Picante, Especiado, Amaderado",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Spicebomb es explosivo en los sentidos. Con notas picantes y amaderadas, es un aroma potente que comunica masculinidad y poder. No para los tímidos.",
+    "recomendacion": "Perfecto para noches de gala en otoño e invierno. Úsalo en climas fríos o templados. Es un aroma que marca presencia inevitablemente."
   },
   {
     "nombre": "Jean Paul Gaultier Elixir 125ml (Masculino)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/pA-k29p8mSFtOk97bEKXh.png",
-    "disponible": false,
+    "disponible": true,
     "genero": "Masculino",
     "notas": "Oriental, Especiado, Amaderado",
     "ocasion": "Elegante, Salir",
@@ -157,7 +185,7 @@
     "nombre": "Jean Paul Gaultier Le Parfum 125ml (Masculino)",
     "precio": 88000,
     "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/E_E0f-ZGXiBlwqiEdzo01.png",
-    "disponible": false,
+    "disponible": true,
     "genero": "Masculino",
     "notas": "Floral, Amaderado, Sofisticado",
     "ocasion": "Elegante, Salir",
@@ -165,48 +193,6 @@
     "clima": "Templado, Frío",
     "momento": "Noche",
     "descripcion": "Jean Paul Gaultier Le Parfum es sofisticación absoluta. Con notas florales y amaderadas, es un perfume para hombres que exigen lo mejor en cada aspecto de sus vidas.",
-    "recomendacion": "Perfecto para ocasiones de gala en otoño e invierno. Ideal para impresionar. Compatible con climas templados. Un aroma inal comparable."
-  },
-  {
-    "nombre": "Xerjoff Erba Pura 100ml (Unisex)",
-    "precio": 88000,
-    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/-G3JLhAyiWxXkQwlj49aM.png",
-    "disponible": false,
-    "genero": "Unisex",
-    "notas": "Herbáceo, Limpio, Fresco",
-    "ocasion": "Casual, Trabajo",
-    "estacion": "Primavera, Verano",
-    "clima": "Calor, Templado",
-    "momento": "Día",
-    "descripcion": "Xerjoff Erba Pura es pureza extrema. Con notas herbaceas y limpias, es el aroma perfecto para quienes aman lo natural y lo fresco.",
-    "recomendacion": "Ideal para días de trabajo en primavera y verano. Compatible con climas cálidos. Un aroma minimalista y refrescante."
-  },
-  {
-    "nombre": "One Million Paco Rabanne (Masculino)",
-    "precio": 120000,
-    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/xgB2oNoAT9hanq1lTETyI.png",
-    "disponible": false,
-    "genero": "Masculino",
-    "notas": "Oriental, Dulce, Gourmet",
-    "ocasion": "Elegante, Salir",
-    "estacion": "Otoño, Invierno",
-    "clima": "Frío, Templado",
-    "momento": "Noche",
-    "descripcion": "One Million es glamour puro. Un oriental dulce y adictivo que comunica éxito y sofisticación. Perfecto para quien disfruta del lujo.",
-    "recomendacion": "Perfecto para noches de gala en otoño e invierno. Ideal para ocasiones especiales. Compatible con climas fríos. Un aroma de status."
-  },
-  {
-    "nombre": "Bleu de Chanel (Masculino)",
-    "precio": 120000,
-    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/ErunA72ucU41wd2qW5Zwb.png",
-    "disponible": false,
-    "genero": "Masculino",
-    "notas": "Amaderado, Cítrico, Clásico",
-    "ocasion": "Elegante, Trabajo",
-    "estacion": "Todo el año",
-    "clima": "Templado",
-    "momento": "Día, Noche",
-    "descripcion": "Bleu de Chanel es el perfume timeless. Clásico, sofisticado y versátil, combina amaderados con cítricos en un equilibrio perfecto que funciona en cualquier contexto.",
-    "recomendacion": "Ideal para cualquier época del año. Úsalo de día o noche, en trabajo o elegancia. Funciona en cualquier clima. Un must-have absoluto."
+    "recomendacion": "Perfecto para ocasiones de gala en otoño e invierno. Ideal para impresionar. Compatible con climas templados. Un aroma incomparable."
   }
 ]

@@ -1,183 +1,268 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>VICTORIA | PERFIMOS</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;800&family=Montserrat:wght@300;500;600;800&display=swap');
-        * { box-sizing: border-box; }
-        body { margin: 0; background: linear-gradient(135deg, #0a0a0a 0%, #1a0f0a 100%); font-family: 'Montserrat', sans-serif; color: #eee; min-height: 100vh; }
-        #fondo-animado { position: fixed; top: 0; left: 0; width: 200%; height: 200%; background-image: radial-gradient(circle, rgba(212, 175, 55, 0.1) 1px, transparent 1px), radial-gradient(circle, rgba(255, 255, 255, 0.02) 1px, transparent 1px); background-size: 30px 30px, 60px 60px; animation: moveBg 50s linear infinite; z-index: -1; }
-        @keyframes moveBg { 0% { transform: translate(0, 0); } 100% { transform: translate(-50px, -50px); } }
-        header { padding: 20px; text-align: center; position: sticky; top: 0; background: linear-gradient(180deg, rgba(5,5,5,0.98) 0%, rgba(5,5,5,0.95) 100%); backdrop-filter: blur(15px); z-index: 100; border-bottom: 2px solid rgba(212, 175, 55, 0.3); box-shadow: 0 8px 32px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center; position: relative; min-height: 70px; }
-        header h1 { font-family: 'Cinzel', serif; font-size: 1rem; letter-spacing: 8px; margin: 0; background: linear-gradient(to right, #d4af37, #f0e68c, #daa520); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 0 20px rgba(212, 175, 55, 0.3); font-weight: 800; }
-        .volver { position: absolute; left: 15px; color: #d4af37; text-decoration: none; font-size: 28px; font-weight: 800; transition: all 0.3s ease; padding: 8px 12px; border-radius: 6px; }
-        .volver:active { transform: scale(0.95); }
-        .volver:hover { color: #f0e68c; text-shadow: 0 0 15px rgba(212, 175, 55, 0.5); }
-        .buscador-container { padding: 20px 15px; text-align: center; }
-        #buscador { width: 90%; max-width: 450px; padding: 14px 18px; background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.04) 100%); border: 2px solid rgba(212, 175, 55, 0.4); border-radius: 8px; color: #eee; outline: none; text-transform: uppercase; font-size: 12px; letter-spacing: 2px; font-weight: 500; transition: all 0.3s ease; }
-        #buscador:focus { border-color: #d4af37; background: linear-gradient(135deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.08) 100%); box-shadow: 0 0 20px rgba(212, 175, 55, 0.3); }
-        #buscador::placeholder { color: rgba(255,255,255,0.5); }
-        .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto; }
-        .card { position: relative; width: 100%; cursor: pointer; border-radius: 12px; overflow: hidden; background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%); border: 2px solid #d4af37; transition: all 0.3s ease; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(212, 175, 55, 0.2); }
-        .card-preview { display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 20px; text-align: center; }
-        .card img { width: 100%; height: 160px; object-fit: contain; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5)); transition: transform 0.3s ease; margin-bottom: 10px; }
-        .card:hover img { transform: scale(1.08); }
-        .card h3 { font-size: 12px; margin: 5px 0; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; color: #f0f0f0; line-height: 1.3; }
-        .card .precio { font-size: 18px; font-weight: 800; color: #d4af37; margin: 10px 0; letter-spacing: 1px; text-shadow: 0 2px 8px rgba(212, 175, 55, 0.3); }
-        .no-encontrado { grid-column: 1/-1; text-align: center; padding: 40px 20px; color: rgba(212, 175, 55, 0.8); font-size: 14px; letter-spacing: 1px; }
-        /* MODAL STYLES */
-        .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 2000; align-items: center; justify-content: center; padding: 20px; }
-        .modal.activo { display: flex; }
-        .modal-content { background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%); border: 2px solid #d4af37; border-radius: 15px; width: 100%; max-width: 500px; max-height: 90vh; overflow-y: auto; padding: 0; box-shadow: 0 0 50px rgba(212, 175, 55, 0.3); position: relative; }
-        .modal-header { padding: 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(212, 175, 55, 0.3); }
-        .modal-header h2 { margin: 0; color: #f0f0f0; font-size: 16px; letter-spacing: 2px; text-transform: uppercase; font-family: 'Cinzel', serif; flex: 1; }
-        .modal-close { background: none; border: none; color: #d4af37; font-size: 28px; cursor: pointer; padding: 5px 10px; transition: all 0.3s ease; }
-        .modal-close:hover { color: #f0e68c; transform: scale(1.2); }
-        .modal-image { width: 100%; height: 280px; object-fit: contain; padding: 30px 20px; background: rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center; }
-        .modal-image img { max-width: 100%; max-height: 100%; }
-        .modal-body { padding: 25px; }
-        .modal-price { font-size: 24px; font-weight: 800; color: #d4af37; margin: 0 0 20px 0; letter-spacing: 1px; text-shadow: 0 2px 8px rgba(212, 175, 55, 0.3); text-align: center; }
-        .modal-description { font-size: 14px; line-height: 1.8; color: #e0e0e0; margin-bottom: 20px; padding: 15px; background: rgba(212, 175, 55, 0.08); border-left: 3px solid #d4af37; border-radius: 6px; }
-        .modal-label { font-size: 11px; font-weight: 700; color: #fcf6ba; text-transform: uppercase; letter-spacing: 2px; margin-top: 15px; margin-bottom: 8px; display: block; }
-        .modal-section { margin-bottom: 15px; }
-        .modal-text { font-size: 13px; line-height: 1.6; color: #d9d9d9; }
-        .modal-button-group { display: flex; gap: 12px; margin-top: 25px; }
-        .modal-btn { flex: 1; padding: 12px; border: none; border-radius: 8px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; font-size: 12px; transition: all 0.3s ease; }
-        .modal-btn-wa { background: linear-gradient(135deg, #25d366 0%, #128c7e 100%); color: white; }
-        .modal-btn-wa:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4); }
-        .modal-btn-carrito { background: linear-gradient(135deg, #d4af37 0%, #f0e68c 100%); color: #0a0a0a; }
-        .modal-btn-carrito:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(212, 175, 55, 0.4); }
-        .fab-container { position: fixed; bottom: 25px; right: 25px; display: flex; flex-direction: column-reverse; gap: 15px; z-index: 999; }
-        .fab { width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; color: white; font-size: 28px; transition: all 0.3s ease; box-shadow: 0 8px 25px rgba(0,0,0,0.4); }
-        .fab:hover { transform: scale(1.1); box-shadow: 0 12px 35px rgba(0,0,0,0.5); }
-        .fab-wa { background: linear-gradient(135deg, #25d366 0%, #128c7e 100%); }
-        .fab-ig { background: linear-gradient(135deg, #f09433 0%, #bc1888 100%); }
-        @media (max-width: 479px) { .grid { gap: 15px; padding: 15px; } .fab-container { bottom: 15px; right: 15px; gap: 12px; } .fab { width: 50px; height: 50px; font-size: 22px; } .card { height: 220px; } .card h3 { font-size: 10px; } .card .precio { font-size: 15px; } .modal-content { max-width: 95%; } }
-        @media (min-width: 480px) { .grid { grid-template-columns: repeat(3, 1fr); gap: 18px; padding: 18px; } .card { height: 240px; } .card h3 { font-size: 11px; } .card .precio { font-size: 19px; } header h1 { font-size: 1.1rem; } }
-        @media (min-width: 768px) { .grid { grid-template-columns: repeat(4, 1fr); gap: 20px; padding: 20px; } .card { height: 280px; } .card h3 { font-size: 12px; } .card .precio { font-size: 20px; } header h1 { font-size: 1.35rem; } #buscador { font-size: 13px; } }
-        @media (min-width: 1024px) { .grid { gap: 25px; padding: 25px; } .card { height: 310px; } header h1 { font-size: 1.8rem; } }
-    </style>
-</head>
-<body>
-    <div id="fondo-animado"></div>
-    <header>
-        <a href="index.html" class="volver">←</a>
-        <h1>VICTORIA SECRET</h1>
-    </header>
-    <div class="buscador-container">
-        <input type="text" id="buscador" placeholder="BUSCAR PERFUME...">
-    </div>
-    <main id="lista-productos" class="grid"></main>
-    
-    <!-- MODAL -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 id="modal-title">Nombre Perfume</h2>
-                <button class="modal-close" onclick="cerrarModal()">×</button>
-            </div>
-            <div class="modal-image">
-                <img id="modal-img" src="" alt="Perfume">
-            </div>
-            <div class="modal-body">
-                <div class="modal-price">$<span id="modal-price">0</span></div>
-                <div class="modal-description" id="modal-description"></div>
-                <div class="modal-section">
-                    <span class="modal-label">Recomendaciones</span>
-                    <div class="modal-text" id="modal-recommendation"></div>
-                </div>
-                <div class="modal-button-group">
-                    <a id="modal-btn-wa" class="modal-btn modal-btn-wa" href="#" target="_blank">WhatsApp</a>
-                    <button class="modal-btn modal-btn-carrito" onclick="agregarCarrito()">Agregar al carrito</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="fab-container">
-        <a href="#" id="fab-wa" class="fab fab-wa" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://instagram.com/_perfimos" id="fab-ig" class="fab fab-ig" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-    </div>
-    
-    <script>
-        const grid = document.getElementById('lista-productos');
-        const modal = document.getElementById('modal');
-        let productos = [];
-        let productoSeleccionado = null;
-        
-        async function cargar() {
-            const res = await fetch('victoria.json?v=' + new Date().getTime()); 
-            productos = await res.json();
-            render(productos);
-        }
-        
-        function render(lista) {
-            grid.innerHTML = '';
-            if (lista.length === 0) {
-                const noEnc = document.createElement('div');
-                noEnc.className = 'no-encontrado';
-                noEnc.textContent = '❌ Perfume no encontrado - Próximamente agregaremos más opciones';
-                grid.appendChild(noEnc);
-                return;
-            }
-            lista.forEach(p => {
-                const card = document.createElement('div');
-                card.className = 'card';
-                card.innerHTML = `
-                    <div class="card-preview">
-                        <img src="${p.imagen}" alt="${p.nombre}">
-                        <h3>${p.nombre}</h3>
-                        <p class="precio">$${p.precio.toLocaleString('es-AR')}</p>
-                    </div>
-                `;
-                card.addEventListener('click', () => abrirModal(p));
-                grid.appendChild(card);
-            });
-        }
-        
-        function abrirModal(p) {
-            productoSeleccionado = p;
-            document.getElementById('modal-title').textContent = p.nombre;
-            document.getElementById('modal-img').src = p.imagen;
-            document.getElementById('modal-price').textContent = p.precio.toLocaleString('es-AR');
-            document.getElementById('modal-description').textContent = p.descripcion;
-            document.getElementById('modal-recommendation').textContent = p.recomendacion;
-            
-            // Configurar botón de WhatsApp
-            const msgWA = `Hola! Me interesa información sobre: ${p.nombre}`;
-            document.getElementById('modal-btn-wa').href = `https://wa.me/543487229170?text=${encodeURIComponent(msgWA)}`;
-            
-            modal.classList.add('activo');
-        }
-        
-        function cerrarModal() {
-            modal.classList.remove('activo');
-            productoSeleccionado = null;
-        }
-        
-        function agregarCarrito() {
-            if (productoSeleccionado) {
-                alert(`${productoSeleccionado.nombre} agregado al carrito\n\nNota: Funcionalidad en desarrollo`);
-            }
-        }
-        
-        // Cerrar modal con clic fuera
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) cerrarModal();
-        });
-        
-        document.getElementById('buscador').addEventListener('input', (e) => {
-            const t = e.target.value.toLowerCase();
-            render(productos.filter(p => p.nombre.toLowerCase().includes(t)));
-        });
-        
-        cargar();
-    </script>
-    <footer style="text-align: center; padding: 30px 20px; font-size: 11px; color: rgba(212, 175, 55, 0.9); letter-spacing: 3px; text-transform: uppercase; font-weight: 700; background: linear-gradient(180deg, rgba(5,5,5,0) 0%, rgba(5,5,5,0.5) 100%); text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);">
-        Calidad G5
-    </footer>
-</body>
-</html>
+[
+  {
+    "nombre": "PEAR GLACE",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/UCX2n329z1jEQIAFnv3eo.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Cítrico, Pera, Fresco",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Primavera, Verano",
+    "clima": "Calor, Templado",
+    "momento": "Día",
+    "descripcion": "Pear Glacé es refrescante y cristalino. Con notas cítricas de pera helada, refresca la piel y el ánimo con elegancia. Liviano y vibrante, perfecto para el movimiento.",
+    "recomendacion": "Ideal para días activos en primavera y verano. Úsalo durante actividades deportivas o momentos casuales. Compatible con climas cálidos."
+  },
+  {
+    "nombre": "RUSH SHIMMER",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/aRGExKbu0kdqfREaJVkkQ.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Adictivo, Sensual, Brillante",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Rush Shimmer es la adicción con brillo. Sensual y glamourosa, es irresistible en cualquier noche elegante. El shimmer añade un toque mágico que atrae todas las miradas.",
+    "recomendacion": "Perfecto para noches especiales en otoño e invierno. Ideal en climas fríos. Un aroma que seduce inevitablemente."
+  },
+  {
+    "nombre": "LOVE ADDICT SHIMMER",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/7vSppO1HGI26Ym9zhpihs.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Dulce, Romance, Glamour",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Todo el año",
+    "clima": "Templado, Calor",
+    "momento": "Noche",
+    "descripcion": "Love Addict Shimmer es adicción pura. Dulce y romántico con brillo glamouroso, es el perfume para noches donde el romance es protagonista.",
+    "recomendacion": "Perfecto para noches elegantes en cualquier estación. Úsalo cuando quieras sentirte especial y atractiva. Compatible con climas templados."
+  },
+  {
+    "nombre": "VELVET PETALS SHIMMER",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/48ErRUhQ5EW2wrh41k0tk.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Floral, Rosa, Terciopelo",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Noche",
+    "descripcion": "Velvet Petals Shimmer es suavidad de terciopelo. Con notas de rosa delicada y brillo sutil, es elegancia en su forma más pura y femenina.",
+    "recomendacion": "Ideal para noches elegantes en primavera y verano. Úsalo en ocasiones especiales. Compatible con climas templados. Sofisticado y femenino."
+  },
+  {
+    "nombre": "RUSH",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/PRffLzj7KZQSWyDtkniEz.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Tentador, Adictivo, Sensual",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Rush es el vértigo de la seducción. Adictivo y sensual, es un perfume irresistible para quien ama la intensidad en las noches. Clásico de Victoria's Secret.",
+    "recomendacion": "Perfecto para noches especiales en otoño e invierno. Úsalo en climas fríos o templados cuando quieras cautivar."
+  },
+  {
+    "nombre": "AGUA KISS SHIMMER",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/T5g4Ovz5XdAZ0I4-RXUVj.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Acuático, Fresco, Luminoso",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor, Templado",
+    "momento": "Día",
+    "descripcion": "Agua Kiss Shimmer es frescura con un toque brillante. Acuático y cristalino, evoca besos y momentos felices bajo el sol con un shimmer que hace brillar la piel.",
+    "recomendacion": "Ideal para días activos en verano y primavera. Úsalo durante actividades deportivas o casuales. Compatible con climas cálidos."
+  },
+  {
+    "nombre": "COCONUT PASSION SHIMMER",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/GlYePF8M5GVXciVGcgqL9.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Coco, Tropical, Brillo",
+    "ocasion": "Casual, Salir",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor, Templado",
+    "momento": "Día, Noche",
+    "descripcion": "Coconut Passion Shimmer combina el coco tropical con un brillo extra que hace que todo sea más especial. Versátil y glamourosa.",
+    "recomendacion": "Versátil para verano y primavera. Úsalo de día o noche, en ocasiones casuales o para salir. Compatible con climas cálidos."
+  },
+  {
+    "nombre": "AGUA KISS",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/ZgYCwF2WZX-ClyVyctwXO.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Acuático, Fresco, Limpio",
+    "ocasion": "Casual, Deporte",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor, Templado",
+    "momento": "Día",
+    "descripcion": "Agua Kiss es pureza líquida. Acuático y limpio, es el aroma perfecto para refrescarte en días calurosos sin perder elegancia.",
+    "recomendacion": "Ideal para días de verano y primavera. Úsalo de día en momentos deportivos o casuales. Compatible con climas cálidos."
+  },
+  {
+    "nombre": "BARE VAINILLA SHIMMER",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/oH5tikY7Uq-2NcZ3JhWXf.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Dulce, Vainilla, Brillante",
+    "ocasion": "Casual, Salir",
+    "estacion": "Todo el año",
+    "clima": "Templado, Calor",
+    "momento": "Día, Noche",
+    "descripcion": "Bare Vainilla Shimmer es la vainilla que amas con un brillo sutil añadido. Cálido, versátil y glamouroso, ideal para cualquier momento del día.",
+    "recomendacion": "Versátil durante todo el año. Úsalo de día o noche, en momentos casuales o para salir. Compatible con cualquier temperatura."
+  },
+  {
+    "nombre": "COCONUT PASSION",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/zWL32Vjdr0BlxBqCFlXla.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Coco, Tropical, Pasión",
+    "ocasion": "Casual, Salir",
+    "estacion": "Verano, Primavera",
+    "clima": "Calor, Templado",
+    "momento": "Día, Noche",
+    "descripcion": "Coconut Passion evoca playas tropicales y atardeceres mágicos. Con notas de coco auténtico, es el aroma de la pasión y la aventura veraniega.",
+    "recomendacion": "Versátil para verano y primavera. Úsalo de día o noche, en ocasiones casuales o para salir. Compatible con climas cálidos."
+  },
+  {
+    "nombre": "LOVE SPELL CANDIED",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/xg3N0RMocHgqPT08m3Ctr.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Hechizo, Dulce, Romance",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Todo el año",
+    "clima": "Templado, Calor",
+    "momento": "Noche",
+    "descripcion": "Love Spell Candied es magia dulce. Un hechizo romántico con notas azucaradas que te envuelven en ensueño y romance puro. Dulce e irresistible.",
+    "recomendacion": "Perfecto para noches románticas en cualquier época del año. Úsalo en ocasiones elegantes. Compatible con climas templados."
+  },
+  {
+    "nombre": "LOVE SPELL",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/Rr72nNYb-sGDv2p_N2c21.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Hechizo, Romance, Dulce",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Noche",
+    "descripcion": "Love Spell es hechizo puro de amor. Con notas dulces y románticas, te envuelve en un aura de magia y cariño. El clásico más icónico de Victoria's Secret.",
+    "recomendacion": "Ideal para noches románticas en primavera y verano. Úsalo en ocasiones elegantes donde el amor es protagonista."
+  },
+  {
+    "nombre": "AMBER ROMANCE SHIMMER",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/MUmkLYSuMoIMQgO5x4rzH.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Ámbar, Romance, Cálido",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Amber Romance Shimmer es calidez envolvente con brillo. Con notas ámbar cálidas y un shimmer sutil, perfecta para noches románticas en clima frío.",
+    "recomendacion": "Perfecto para noches elegantes en otoño e invierno. Úsalo en climas fríos o templados. Ideal para momentos románticos."
+  },
+  {
+    "nombre": "PURE SEDUCTION",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/7wbncwSxiT1KSvf1Xs3yx.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Sensual, Almizclado, Seductor",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Otoño, Invierno",
+    "clima": "Frío, Templado",
+    "momento": "Noche",
+    "descripcion": "Pure Seduction es el arte de la seducción. Sensual y envolvente, con almizcares intensos que crean una nube irresistible alrededor tuyo.",
+    "recomendacion": "Perfecto para noches de seducción en otoño e invierno. Úsalo en climas fríos o templados cuando quieras captar toda la atención."
+  },
+  {
+    "nombre": "BARE VAINILLA",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/ethHCB8065PQ2eIu3sBwk.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Dulce, Vainilla, Cálido",
+    "ocasion": "Casual, Salir",
+    "estacion": "Todo el año",
+    "clima": "Templado, Calor",
+    "momento": "Día, Noche",
+    "descripcion": "Bare Vainilla es calidez envolvente. Con notas suaves de vainilla, es un aroma confortante que se adapta a cualquier momento del año.",
+    "recomendacion": "Versátil durante todo el año. Úsalo de día o noche, en momentos casuales o para salir. Compatible con cualquier temperatura."
+  },
+  {
+    "nombre": "VELVET PETALS",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/5dVKQDDEER4Ky2HfTDJfI.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Floral, Rosa, Sensual",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Noche",
+    "descripcion": "Velvet Petals es sensualidad floral. Notas de rosa pura transmiten feminidad y romance. Un clásico que nunca pasa de moda.",
+    "recomendacion": "Perfecto para noches románticas en primavera y verano. Úsalo en ocasiones elegantes donde quieras sentirte femenina."
+  },
+  {
+    "nombre": "CAKE CONFETTI SHIMMER",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/b2-d6Q8GKsHFXeZdlRqkt.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Pastel, Dulce, Festivo",
+    "ocasion": "Casual, Fiesta",
+    "estacion": "Todo el año",
+    "clima": "Templado, Calor",
+    "momento": "Día, Noche",
+    "descripcion": "Cake Confetti Shimmer es celebración en cada pulverización. Dulce y festivo con brillo sutil, perfecto para momentos de fiesta y alegría pura.",
+    "recomendacion": "Versátil durante todo el año. Úsalo en fiestas, celebraciones o momentos alegres. Compatible con cualquier temperatura."
+  },
+  {
+    "nombre": "TEMPATION SHIMMER",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/_IRdDuz3hvSZ_RaQ7GPYP.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Tentación, Dulce, Brillante",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Todo el año",
+    "clima": "Templado, Calor",
+    "momento": "Noche",
+    "descripcion": "Temptation Shimmer es la tentación hecha perfume. Dulce y glamourosa, brilla con sensualidad en cada noche especial.",
+    "recomendacion": "Perfecto para noches elegantes en cualquier época del año. Compatible con climas templados. Tentador e irresistible."
+  },
+  {
+    "nombre": "LOVE SPELL SHIMMER",
+    "precio": 28000,
+    "imagen": "https://cdn.pedix.app/H27VdhdfgKETp1heacwf/products/VN1uxj3EVQ_V2IrgfOWgD.png",
+    "disponible": true,
+    "genero": "Femenino",
+    "notas": "Hechizo, Romance, Brillo",
+    "ocasion": "Elegante, Salir",
+    "estacion": "Primavera, Verano",
+    "clima": "Templado, Calor",
+    "momento": "Noche",
+    "descripcion": "Love Spell Shimmer es el hechizo de amor con brillo puro. Romántico y glamouroso, envuelve con magia en cada pulverización.",
+    "recomendacion": "Ideal para noches elegantes en primavera y verano. Úsalo en ocasiones especiales y románticas. Compatible con climas templados."
+  }
+]
